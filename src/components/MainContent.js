@@ -9,20 +9,28 @@ function MainContent() {
         <Row>
           <Col xs={12} md={4}>
             <div className="sectionWrapper">
-              <h1 className="ourClasses">OUR CLASSES</h1>
-              <button className="colBtns">View All</button>
+              <Row className="colHeader">
+                <Col><h1 className="colH1">OUR CLASSES</h1></Col>
+                <Col><button className="colBtns">View All</button></Col>
+              </Row>
             </div>
           </Col>
 
           <Col xs={12} md={4}>
             <div className="sectionWrapper">
-              <h1 className="ourClasses">OUR INSTRUCTORS<button className="colBtns">View All</button></h1>
+              <Row className="colHeader">
+                <Col><h1 className="colH1">OUR INSTRUCTORS</h1></Col>
+                <Col><button className="colBtns">View All</button></Col>
+              </Row>
             </div>
           </Col>
 
           <Col xs={12} md={4}>
             <div className="sectionWrapper">
-              <h1 className="ourClasses">CURRENT NEWS<button className="colBtns">View All</button></h1>
+              <Row className="colHeader">
+                <Col><h1 className="colH1">CURRENT NEWS</h1></Col>
+                <Col><button className="colBtns">View All</button></Col>
+              </Row>
             </div>
           </Col>
         </Row>
