@@ -54,7 +54,7 @@ code {
   color: gray;
 }
 
-.fa:hover {
+.fa-instagram:hover, .fa-facebook:hover, .fa-twitter:hover {
   color: white;
   text-decoration: none;
 }
