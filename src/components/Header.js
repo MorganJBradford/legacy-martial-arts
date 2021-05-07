@@ -1,29 +1,27 @@
 import React from "react";
-import Carousel from "./Carousel";
-import Links from "./Links";
-import Logo from "./Logo";
+// import Carousel from "./Carousel";
+import LogoLinks from "./LogoLinks";
 import TopBar from "./TopBar";
 
 function Header() {
   // TODO: check state slice responsible for Carousel|| hook?
-  if (stateCheck) {
+  // if (stateCheck) {
     return (
       <>
         <TopBar />
-        <Logo />
-        <Links />
-        <Carousel />
+        <LogoLinks />
+        {/* <Carousel /> */}
       </>
     );
-  } else {
-    return (
-      <>
-        <TopBar />
-        <Logo />
-        <Links />
-      </>
-    );
-  }
+  // } else {
+  //   return (
+  //     <>
+  //       <TopBar />
+  //       <Logo />
+  //       <Links />
+  //     </>
+  //   );
+  // }
 }
 
 export default Header;
