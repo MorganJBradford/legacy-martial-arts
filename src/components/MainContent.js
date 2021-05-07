@@ -7,18 +7,24 @@ function MainContent() {
     <div className="mainContent">
       <div className="container">
         <Row>
-          <Col className="col">
-            <h1 className="ourClasses">Our Classes <button className="ourClassesBtn">View All</button></h1>
+          <Col xs={12} md={4}>
+            <div className="sectionWrapper">
+              <h1 className="ourClasses">OUR CLASSES</h1>
+              <button className="colBtns">View All</button>
+            </div>
           </Col>
-          <Col className="col">Bleep</Col>
-          <Col className="col">Blp</Col>
-        </Row>
-        <Row>
-          <Col>Bloop2</Col>
-          <Col>Bloop2</Col>
-        </Row>
-        <Row>
-          <Col>Bloop3</Col>
+
+          <Col xs={12} md={4}>
+            <div className="sectionWrapper">
+              <h1 className="ourClasses">OUR INSTRUCTORS<button className="colBtns">View All</button></h1>
+            </div>
+          </Col>
+
+          <Col xs={12} md={4}>
+            <div className="sectionWrapper">
+              <h1 className="ourClasses">CURRENT NEWS<button className="colBtns">View All</button></h1>
+            </div>
+          </Col>
         </Row>
       </div>
     </div>
