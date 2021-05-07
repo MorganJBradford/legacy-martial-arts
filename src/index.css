@@ -20,16 +20,38 @@ code {
   font-size: 15px;
 }
 
-.topBarBoxList {
+.topBarList {
   list-style: none outside;
 }
 
-.topBarBoxLi {
+.topBarLi {
   border-left: 2px black solid;
   display: inline-block;
   padding: 10px 10px 10px 10px;
-  margin: 0px;
   font-size: 16px;
   position: relative;
   bottom: 14px;
+}
+
+.topBarSocialsList {
+  list-style: none outside;
+  border-left: 2px black solid;
+  position: relative;
+  left: 298px;
+  bottom: 74px;
+}
+
+.topBarSocialsLi {
+  display: inline-block;
+  padding: 10px 10px 10px 5px;
+  font-size: 16px;
+}
+
+.fa {
+  color: gray;
+}
+
+.fa:hover {
+  color: white;
+  text-decoration: none;
 }
