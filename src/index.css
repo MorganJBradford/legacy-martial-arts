@@ -11,6 +11,7 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+/* Top bar */
 
 .topBar {
   background-color: #292A2C;
@@ -61,3 +62,13 @@ code {
 .fa-calendar, .fa-phone {
   padding-right: 10px;
 }
+
+/* Logo */
+
+#legacyLogo {
+  max-height: 16vh;
+  max-width: 16vw;
+  margin-top: 20px;
+}
+
+/* Links */
