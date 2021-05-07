@@ -113,19 +113,21 @@ code {
 
 }
 
-.ourClasses {
+.colH1 {
   font-size: 16px;
   background-color: #262729;
   color: white;
   margin: 0 0 20px;
   padding: 20px 15px 10px 15px;
-  border-left: 4px #A72328 solid;
   height: 52px;
-
+}
+.colHeader {
+  background-color: #262729;
+  border-left: 4px #A72328 solid;
 }
 
 .colBtns {
-  margin: 5px 0 0;
+  margin: 10px 0 0;
   padding: 6px;
   color: gray;
   background-color: #ffffff14;
