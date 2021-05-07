@@ -1,5 +1,5 @@
 import React from "react";
-// import Carousel from "./Carousel";
+import HomeCarousel from "./HomeCarousel";
 import LogoLinks from "./LogoLinks";
 import TopBar from "./TopBar";
 
@@ -10,7 +10,7 @@ function Header() {
       <>
         <TopBar />
         <LogoLinks />
-        {/* <Carousel /> */}
+        <HomeCarousel />
       </>
     );
   // } else {
