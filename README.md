@@ -22,6 +22,50 @@
 
 ## 🌐 About the Project
 
+### Capstone Proposal
+
+#### MVP:
+
+* Welcome page that displays:
+  * Header
+    * Nav bar
+    * Logo
+  * Image Carousel
+  * Class information
+  * Schedule
+  * About Master J (and other instructors)
+  * Foot
+    * Location
+    * Business hours
+    * Contact info
+
+#### Expected tools/libraries:
+
+* React (redux?)
+* JavaScript
+* HTML
+* CSS
+* Bootstrap (or other styling libraries)
+
+#### Stretch Goals:
+
+* Add admin role tha can:
+  * add/remove images from carousel
+  * Track quantity of product sold
+  * Add payment tracking/user accounts
+* Collect payment for classes and/or apparel
+* Additional styling of website
+* deploy site
+
+#### Additional tools for stretch goals:
+
+* Payment via API: Paypal, Venmo, Shopify, etc.
+* CSS
+* C#/.NET
+* Firebase/Firestore
+
+------------------------------
+
 ### 📖 Description
 A website for legacy-martial-arts Martial Arts, LLC.
 
