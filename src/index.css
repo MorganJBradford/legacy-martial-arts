@@ -63,12 +63,43 @@ code {
   padding-right: 10px;
 }
 
-/* Logo */
+/* LogoLinks Logo */
 
 #legacyLogo {
-  max-height: 16vh;
-  max-width: 16vw;
+  max-height: 12vh;
+  max-width: 12vw;
   margin-top: 20px;
+  position: relative;
+  bottom: 76px;
 }
 
-/* Links */
+/* LogoLinks Links */
+
+.linksDiv {
+  display: inline-block;
+}
+.linksList {
+  display: table;
+  padding-left: 22em;
+}
+
+.linksLi {
+  display: table-cell;
+  vertical-align: middle;
+  height: 110px;
+  width: 50px;
+  color: #C2C2C2;
+  border-left: 2px rgba(128, 128, 128, 0.513) solid;
+  text-align: center;
+  font-weight: 500;
+  padding: 20px;
+}
+
+.linksLi:hover {
+  background-color: #A72328;
+  color: white;
+}
+
+.linksLiLast {
+  border-right: 2px rgba(128, 128, 128, 0.513) solid;
+}
