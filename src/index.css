@@ -37,7 +37,7 @@ code {
   list-style: none outside;
   border-left: 2px black solid;
   position: relative;
-  left: 298px;
+  left: 344px;
   bottom: 74px;
 }
 
@@ -45,6 +45,8 @@ code {
   display: inline-block;
   padding: 10px 10px 10px 5px;
   font-size: 16px;
+  position: relative;
+  right: 32px;
 }
 
 .fa {
@@ -54,4 +56,8 @@ code {
 .fa:hover {
   color: white;
   text-decoration: none;
+}
+
+.fa-calendar, .fa-phone {
+  padding-right: 10px;
 }
