@@ -70,14 +70,16 @@ code {
   max-width: 12vw;
   margin-top: 20px;
   position: relative;
-  bottom: 82px;
-  left: 44px;
+  bottom: 86px;
+  left: 84px;
 }
 
 /* LogoLinks Links */
 
 .linksDiv {
   display: inline-block;
+  position: relative;
+  left: 86px;
 }
 .linksList {
   display: table;
@@ -106,7 +108,7 @@ code {
 }
 
 .carousel {
-  max-height: 322px;
+  max-height: 422px;
   max-width: 1040px;
   margin: 0 auto;
   position: relative;
