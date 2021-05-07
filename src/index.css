@@ -69,17 +69,12 @@ code {
   max-height: 10vh;
   max-width: 12vw;
   margin-top: 20px;
-  position: relative;
-  bottom: 84px;
-  left: 84px;
 }
 
 /* LogoLinks Links */
 
 .linksDiv {
   display: inline-block;
-  position: relative;
-  left: 86px;
 }
 .linksList {
   display: table;
@@ -111,12 +106,11 @@ code {
   max-height: 422px;
   max-width: 1040px;
   margin: 0 auto;
-  position: relative;
-  bottom: 78px;
 }
 
 .mainContent {
   background-color: #E4E8EE;
+
 }
 
 .ourClasses {
@@ -124,21 +118,23 @@ code {
   background-color: #262729;
   color: white;
   margin: 0 0 20px;
-  padding: 10px 15px;
+  padding: 20px 15px 10px 15px;
   border-left: 4px #A72328 solid;
   height: 52px;
 
 }
 
-.ourClassesBtn {
+.colBtns {
   margin: 5px 0 0;
   padding: 6px;
+  color: gray;
   background-color: #ffffff14;
   color: white;
   border-radius: 3px;
   float: right;
 }
 
-.col{
-  margin: 0px 10px;
+.colBtns:hover {
+  background-color: #A72328;
+  color: white;
 }
