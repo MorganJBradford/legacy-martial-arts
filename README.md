@@ -75,13 +75,16 @@ A website for legacy-martial-arts Martial Arts, LLC.
 
 ### 🛠 Built With
 
-<!-- * [Visual Studio Code](https://code.visualstudio.com/)
+* [Visual Studio Code](https://code.visualstudio.com/)
+* [HTML](https://en.wikipedia.org/wiki/HTML)
+* [CSS](https://en.wikipedia.org/wiki/CSS)
+* [React-Bootstrap](https://react-bootstrap.github.io)
 * [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
-* [Jest](https://jestjs.io)
+<!-- * [Jest](https://jestjs.io) -->
 * [React](https://reactjs.org)
-* [Redux](https://redux.js.org)
-* [React Redux](https://react-redux.js.org)
-* [Git & GitHub](https://github.com/) -->
+<!-- * [Redux](https://redux.js.org) -->
+<!-- * [React Redux](https://react-redux.js.org) -->
+* [Git & GitHub](https://github.com/)
 
 ------------------------------
 
