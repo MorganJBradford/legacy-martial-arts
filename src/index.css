@@ -13,8 +13,8 @@
 }
 
 .topBarLi {
-  border-left: 2px black solid;
-  display: inline-block;
+  border-left: 1px black solid;  display: inline-block;
+  box-shadow: -0.5px 0 0 rgba(255, 255, 255, 0.2);
   padding: 10px 10px 10px 10px;
   font-size: 16px;
   position: relative;
@@ -23,7 +23,8 @@
 
 .topBarSocialsList {
   list-style: none outside;
-  border-left: 2px black solid;
+  border-left: 1px black solid;
+  box-shadow: -0.5px 0 0 rgba(225, 225, 225, 0.2);
   position: relative;
   left: 344px;
   bottom: 74px;
@@ -73,7 +74,7 @@
   height: 110px;
   width: 50px;
   color: #C2C2C2;
-  border-left: 2px rgba(128, 128, 128, 0.5) solid;
+  border-left: 1px rgba(128, 128, 128, 0.2) solid;
   text-align: center;
   font-weight: 500;
   padding: 20px;
@@ -85,11 +86,11 @@
 }
 
 .linksLiLast {
-  border-right: 2px rgba(128, 128, 128, 0.5) solid;
+  border-right: 1px rgba(128, 128, 128, 0.2) solid;
 }
 /* Carousel */
 .carousel {
-  max-height: 422px;
+  max-height: 322.69px;
   max-width: 1040px;
   margin: 0 auto;
 }
