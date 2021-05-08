@@ -1,0 +1,3 @@
+The purpose of this is file is to log things that I found interesting but do not fit the needs of this project.
+
+Border-image linear gradient.
