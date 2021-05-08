@@ -138,7 +138,7 @@ A website for legacy-martial-arts Martial Arts, LLC.
 
 | Linkedin | GitHub | Email |
 |--------|:------:|:-----:|
-| [Morgan Bradford](https://www.linkedin.com/in/morganjbradford/) | [MorganJBradford](https://github.com/MorganJBradford) | [morganjbradford95@gmail.com](mailto:morganjbradford+github95@gmail.com) |
+| [Morgan Bradford](https://www.linkedin.com/in/morganjbradford/) | [MorganJBradford](https://github.com/MorganJBradford) | [morganjbradford95@gmail.com](mailto:morganjbradford95+github@gmail.com) |
 
 ------------------------------
 
