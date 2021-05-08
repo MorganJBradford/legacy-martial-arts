@@ -1,16 +1,3 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
 /* Top bar */
 
 .topBar {
@@ -68,17 +55,16 @@ code {
 #legacyLogo {
   max-height: 10vh;
   max-width: 12vw;
-  margin-top: 20px;
+  margin-top: 10px;
+  padding-left: 5em;
 }
 
 /* LogoLinks Links */
 
-.linksDiv {
-  display: inline-block;
-}
 .linksList {
   display: table;
-  padding-left: 22em;
+  padding-left: 21em;
+  margin: 0;
 }
 
 .linksLi {
@@ -101,33 +87,33 @@ code {
 .linksLiLast {
   border-right: 2px rgba(128, 128, 128, 0.5) solid;
 }
-
+/* Carousel */
 .carousel {
   max-height: 422px;
   max-width: 1040px;
   margin: 0 auto;
 }
+/* MainContent */
 
 .mainContent {
   background-color: #E4E8EE;
-
 }
 
 .colH1 {
   font-size: 16px;
   background-color: #262729;
   color: white;
-  margin: 0 0 20px;
-  padding: 20px 15px 10px 15px;
+  padding: 16px 0 0 0;
   height: 52px;
 }
 .colHeader {
   background-color: #262729;
   border-left: 4px #A72328 solid;
+  max-height: 54px;
 }
 
 .colBtns {
-  margin: 10px 0 0;
+  margin: 8px 0 6px 0;
   padding: 6px;
   color: gray;
   background-color: #ffffff14;
@@ -139,4 +125,8 @@ code {
 .colBtns:hover {
   background-color: #A72328;
   color: white;
+}
+
+.mainCols {
+  padding: 0 24px 0 24px
 }
