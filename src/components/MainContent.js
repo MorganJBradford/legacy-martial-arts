@@ -7,7 +7,7 @@ function MainContent() {
     <div className="mainContent">
       <div className="container">
         <Row>
-          <Col xs={12} md={4}>
+          <Col xs={12} md={4} className="mainCols">
             <div className="sectionWrapper">
               <Row className="colHeader">
                 <Col><h1 className="colH1">OUR CLASSES</h1></Col>
@@ -16,7 +16,7 @@ function MainContent() {
             </div>
           </Col>
 
-          <Col xs={12} md={4}>
+          <Col xs={12} md={4} className="mainCols">
             <div className="sectionWrapper">
               <Row className="colHeader">
                 <Col><h1 className="colH1">OUR INSTRUCTORS</h1></Col>
@@ -25,7 +25,7 @@ function MainContent() {
             </div>
           </Col>
 
-          <Col xs={12} md={4}>
+          <Col xs={12} md={4} className="mainCols">
             <div className="sectionWrapper">
               <Row className="colHeader">
                 <Col><h1 className="colH1">CURRENT NEWS</h1></Col>
