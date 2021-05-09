@@ -57,8 +57,8 @@ body {
 /* LogoLinks Logo */
 
 #legacyLogo {
-  max-height: 10vh;
-  max-width: 12vw;
+  max-height: 166px;
+  max-width: 166px;
   margin-top: 10px;
   padding-left: 5em;
 }
@@ -115,6 +115,7 @@ body {
   background-color: #262729;
   border-left: 4px #A72328 solid;
   max-height: 54px;
+  width: 300px;
 }
 
 .colBtns {
@@ -132,6 +133,17 @@ body {
   color: white;
 }
 
-.mainCols {
-  padding: 0 24px 0 24px
+
+/* ClassCol, InstructorCol, NewsCol */
+
+.colSection {
+  width: 300px;
+  background-color: white;
+  margin: 10px;
+}
+
+.colPic {
+  width: 278px;
+  height: 155px;
+  border-bottom: 4px solid #A72328 ;
 }
