@@ -1,20 +1,35 @@
 import React from "react";
+import Nav from "react-bootstrap/Nav";
+import Navbar from "react-bootstrap/Navbar";
+import NavDropdown from "react-bootstrap/NavDropdown";
 
 function TopBar() {
   return (
-    <div className="topBar">
-      <div className="container">
-        <ul className="topBarList">
-          <li className="topBarLi"><i class="fa fa-calendar"></i>Opening Hours</li>
-          <li className="topBarLi"><i class="fa fa-phone"></i>(630) 224-0580</li>
-        </ul>
-        <ul className="topBarSocialsList">
-          <li className="topBarSocialsLi"><a href="https://www.facebook.com/Legacy.TKD" class="fa fa-facebook"></a></li>
-          <li className="topBarSocialsLi"><a href="https://twitter.com/legacytkd?lang=en" class="fa fa-twitter"></a></li>
-          <li className="topBarSocialsLi"><a href="https://www.instagram.com/tkdgirl307/?hl=en" class="fa fa-instagram"></a></li>
-        </ul>
-      </div>
-    </div>
+    <Navbar collapseOnSelect expand="lg" variant="dark" className="navbar">
+      <Navbar.Brand className="navbar" href="#home">Legacy Martial Arts</Navbar.Brand>
+      <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+      <Navbar.Collapse id="responsive-navbar-nav">
+        <Nav className="mr-auto">
+          <i class="fa fa-calendar"></i>
+          <NavDropdown title="Opening Hours" id="collapsible-nav-dropdown" className="test">
+            <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
+            <NavDropdown.Item href="#action/3.2">Another action</NavDropdown.Item>
+            <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
+            <NavDropdown.Divider />
+            <NavDropdown.Item href="#action/3.4">Separated link</NavDropdown.Item>
+          </NavDropdown>
+          <i className="fa fa-phone"></i>
+          <Nav.Link href="#phone" className="test">(630) 224-0580</Nav.Link>
+        </Nav>
+        <Nav>
+          <Nav.Link href="#socials">
+            <a href="https://www.facebook.com/Legacy.TKD" class="fa fa-facebook"></a>
+            <a href="https://twitter.com/legacytkd?lang=en" class="fa fa-twitter"></a>
+            <a href="https://www.instagram.com/tkdgirl307/?hl=en" class="fa fa-instagram"></a>
+          </Nav.Link>
+        </Nav>
+      </Navbar.Collapse>
+    </Navbar>
   );
 }
 
