@@ -1,7 +1,7 @@
 import React from "react";
-import LegacyLogo from "../img/legacy-logo.jpg";
 import Col from "react-bootstrap/Col";
 import Row from "react-bootstrap/Row";
+import LegacyLogo from "../img/legacy-logo.jpg";
 
 function Logo() {
   return (
