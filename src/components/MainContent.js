@@ -1,3 +1,4 @@
+import Container from 'react-bootstrap/Container'
 import React from "react";
 import Row from "react-bootstrap/Row";
 import ClassCol from "./ClassCol";
@@ -7,13 +8,13 @@ import NewsCol from "./NewsCol";
 function MainContent() {
   return(
     <div className="mainContent">
-      <div className="container">
+      <Container>
         <Row>
           <ClassCol />
           <InstructorCol />
           <NewsCol />
         </Row>
-      </div>
+      </Container>
     </div>
   );
 }

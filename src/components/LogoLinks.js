@@ -1,11 +1,12 @@
 import React from "react";
+import Container from "react-bootstrap/Container";
 import Col from "react-bootstrap/Col";
 import Row from "react-bootstrap/Row";
 import LegacyLogo from "../img/legacy-logo.jpg";
 
 function Logo() {
   return (
-    <div className="container">
+    <Container>
       <Row>
         <Col md={2}>
           <img src={LegacyLogo} id="legacyLogo" alt="Legacy Martial Arts Logo"/>
@@ -22,7 +23,7 @@ function Logo() {
           </div>
         </Col>
       </Row>
-    </div>
+    </Container>
   );
 }
 
