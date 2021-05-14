@@ -187,3 +187,19 @@ body {
   border: none;
   margin: 0 6px 14px 6px;
 }
+
+
+.footerBackground {
+  background-image: url(./img/footer-pic.png);
+  background-repeat: no-repeat;
+  height: 533px;
+  width: 100%;
+}
+
+@media only screen and (max-width: 1920px) {
+  .footerBackground {
+    background-image: url(./img/footer-pic2.png);
+    background-repeat: no-repeat;
+    height: 533px;
+  }
+}
