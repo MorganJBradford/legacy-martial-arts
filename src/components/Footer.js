@@ -12,34 +12,53 @@ function Footer() {
       <Container>
         <Row>
           <Col xs={12} md={4} lg={4} xl={4} className="mainCols">
+            <h1 className="footerColH1">Contact Info</h1>
             <div className="sectionWrapper d-flex justify-content-center">
-              <Row className="classColSection">
+              <Row className="footerColSection">
                 <Col>
-                  <h1 className="classColH1">FAMILY TAEKWONDO</h1>
-                  <p className="classColP">Keep your family strong while having a great time together.</p>
-                  <button className="classColBtn">MORE INFO</button>
+                  <h2 className="footerColH2">LEGACY MARTIAL ARTS</h2>
+                  <Row className="locationSection">
+                    <Col><h2 className="footerColH2">ADDRESS</h2></Col>
+                    <Col><p className="footerLocation">blah blah blah</p></Col>
+                  </Row>
+                  <Row className="locationSectionMid">
+                    <Col><h2 className="footerColH2">TELEPHONE</h2></Col>
+                    <Col><p className="footerLocation">View All</p></Col>
+                  </Row>
+                  <Row className="locationSection">
+                    <Col><h2 className="footerColH2">EMAIL</h2></Col>
+                    <Col><p className="footerLocation">View All</p></Col>
+                  </Row>
                 </Col>
               </Row>
             </div>
           </Col>
           <Col xs={12} md={4} lg={4} xl={4} className="mainCols">
             <div className="sectionWrapper d-flex justify-content-center">
-              <Row className="classColSection">
-                <Col>
-                  <h1 className="classColH1">FAMILY TAEKWONDO</h1>
-                  <p className="classColP">Keep your family strong while having a great time together.</p>
-                  <button className="classColBtn">MORE INFO</button>
-                </Col>
+              <Row className="footerColSection">
+                <Col><h2 className="footerColH2">OUR INSTRUCTORS</h2></Col>
+                <Col><p className="footerData">View All</p></Col>
               </Row>
             </div>
           </Col>
           <Col xs={12} md={4} lg={4} xl={4} className="mainCols">
+            <h1 className="footerColH1">Contact Info</h1>
             <div className="sectionWrapper d-flex justify-content-center">
-              <Row className="classColSection">
+              <Row className="footerColSection">
                 <Col>
-                  <h1 className="classColH1">FAMILY TAEKWONDO</h1>
-                  <p className="classColP">Keep your family strong while having a great time together.</p>
-                  <button className="classColBtn">MORE INFO</button>
+                  <h2 className="footerColH2">LEGACY MARTIAL ARTS</h2>
+                  <Row className="locationSection">
+                    <Col><h2 className="footerColH2">ADDRESS</h2></Col>
+                    <Col><p className="footerLocation">blah blah blah</p></Col>
+                  </Row>
+                  <Row className="locationSectionMid">
+                    <Col><h2 className="footerColH2">TELEPHONE</h2></Col>
+                    <Col><p className="footerLocation">View All</p></Col>
+                  </Row>
+                  <Row className="locationSection">
+                    <Col><h2 className="footerColH2">EMAIL</h2></Col>
+                    <Col><p className="footerLocation">View All</p></Col>
+                  </Row>
                 </Col>
               </Row>
             </div>
