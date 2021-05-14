@@ -15,7 +15,14 @@ function ClassCol() {
         </div>
         <div className="sectionWrapper d-flex justify-content-center">
           <Row className="colSection">
-            <Col><img src={EmKick} className="colPic"/></Col>
+            <Col>
+              <img src={EmKick} className="colPic"/>
+            </Col>
+            <Col>
+              <h1 className="classColH1">KIDS TAEKWONDO</h1>
+              <p className="classColP">Taekwondo builds healthy kids, improving their physical coordination and self confidence in a positive atmosphere.</p>
+              <button className="classColBtn">MORE INFO</button>
+            </Col>
           </Row>
         </div>
       </Col>
