@@ -199,14 +199,14 @@ body {
 
 .footerColH1 {
   font-size: 21px;
-  margin: 40px 0 0 24px;
+  margin: 0px 0 0 24px;
   padding: 0 0 10px 0;
   color: white;
 }
 
 .footerColH2 {
   font-size: 16px;
-  margin: 10px 6px 10px 6px;
+  margin: 20px 2px;
   color: white;
 }
 
@@ -223,6 +223,22 @@ body {
 }
 .locationSectionMid {
   background: #303234;
+}
+
+.footerMid {
+  color: white;
+}
+
+#footerLogo {
+  max-height: 146px;
+  max-width: 146px;
+  margin-top: 38px;
+  border-radius: 50%;
+}
+
+.footerBuffer {
+  background-color: #262729;
+  height: 50px;
 }
 
 /* TODO: fix background photo or background */
