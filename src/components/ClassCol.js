@@ -25,6 +25,30 @@ function ClassCol() {
             </Col>
           </Row>
         </div>
+        <div className="sectionWrapper d-flex justify-content-center">
+          <Row className="colSection">
+            <Col>
+              <img src={EmKick} className="colPic"/>
+            </Col>
+            <Col>
+              <h1 className="classColH1">FAMILY TAEKWONDO</h1>
+              <p className="classColP">Keep your family strong while having a great time together.</p>
+              <button className="classColBtn">MORE INFO</button>
+            </Col>
+          </Row>
+        </div>
+        <div className="sectionWrapper d-flex justify-content-center">
+          <Row className="colSection">
+            <Col>
+              <img src={EmKick} className="colPic"/>
+            </Col>
+            <Col>
+              <h1 className="classColH1">ADULT TAEKWONDO & HAPKIDO</h1>
+              <p className="classColP">Our Hapkido and Taekwondo program for adults is designed to help you to achieve your fitness and self defense goals.</p>
+              <button className="classColBtn">MORE INFO</button>
+            </Col>
+          </Row>
+        </div>
       </Col>
     </>
   );
