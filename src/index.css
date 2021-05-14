@@ -114,10 +114,16 @@ body {
 
 /* ClassCol, InstructorCol, NewsCol */
 
-.colSection {
+.classColSection {
   width: 300px;
   background-color: white;
   margin: 10px;
+}
+
+.instructorColSection {
+  width: 300px;
+  margin: 10px;
+  background-color: #262729;
 }
 
 .colPic {
@@ -145,6 +151,32 @@ body {
 }
 
 .classColBtn {
+  background-color: #A72328;
+  color: white;
+  font-size: 11px;
+  padding: 0 0 1px 0px;
+  border-radius: 4px;
+  height: 33px;
+  width: 71px;
+  border: none;
+  margin: 0 6px 14px 6px;
+}
+
+.instructorColH1 {
+  font-size: 16px;
+  margin: 20px 6px 10px 6px;
+  padding: 0 0 10px 0;
+  color: white;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.instructorColP {
+  font-size: 16px;
+  margin: 10px 6px 10px 6px;
+  color: #828282;
+}
+
+.instructorColBtn {
   background-color: #A72328;
   color: white;
   font-size: 11px;
