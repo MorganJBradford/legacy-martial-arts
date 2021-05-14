@@ -1,7 +1,7 @@
 import React from "react";
 import Carousel from "react-bootstrap/Carousel";
 import Instructors from "../img/instructors.jpg";
-import MJ from "../img/mj.jpg";
+import MJ from "../img/jane-em-kick.jpg";
 import WolfPack from "../img/wolf-pack.jpg"
 
 function HomeCarousel() {
