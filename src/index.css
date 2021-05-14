@@ -129,3 +129,29 @@ body {
   position: relative;
   right: 5px;
 }
+
+.classColH1 {
+  font-size: 16px;
+  margin: 20px 6px 10px 6px;
+  padding: 0 0 10px 0;
+  color: #212521;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.classColP {
+  font-size: 16px;
+  margin: 10px 6px 10px 6px;
+  color: #828282;
+}
+
+.classColBtn {
+  background-color: #A72328;
+  color: white;
+  font-size: 11px;
+  padding: 0 0 1px 0px;
+  border-radius: 4px;
+  height: 33px;
+  width: 71px;
+  border: none;
+  margin: 0 6px 14px 6px;
+}
