@@ -121,7 +121,9 @@ body {
 }
 
 .colPic {
-  width: 278px;
+  max-width: 280px;
+  width: 280px;
   height: 155px;
-  border-bottom: 4px solid #A72328 ;
+  margin-top: 10px;
+  border-bottom: 4px solid #A72328;
 }
