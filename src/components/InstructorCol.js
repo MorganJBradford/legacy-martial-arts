@@ -44,7 +44,7 @@ function InstructorCol() {
               <img src={EmKick} className="colPic"/>
             </Col>
             <Col>
-              <h1 className="instructorColH1">INSTRUCTOR ETHAN</h1>
+              <h1 className="instructorColH1">INSTRUCTOR JEREMY</h1>
               <p className="classColP">Taekwondo</p>
               <button className="classColBtn">MORE INFO</button>
             </Col>
