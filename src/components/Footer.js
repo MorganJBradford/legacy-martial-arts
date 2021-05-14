@@ -14,7 +14,7 @@ function Footer() {
         <Row>
           <Col xs={12} md={4} lg={4} xl={4} className="mainCols">
             <h1 className="footerColH1">Contact Info</h1>
-            <div className="sectionWrapper d-flex justify-content-center">
+            <div className="d-flex justify-content-center">
               <Row className="footerColSection">
                 <Col>
                   <h2 className="footerColH2">LEGACY MARTIAL ARTS</h2>
@@ -35,17 +35,16 @@ function Footer() {
             </div>
           </Col>
           <Col xs={12} md={4} lg={4} xl={4} className="mainCols">
-            <div className="sectionWrapper d-flex justify-content-center">
               <Row>
                 <Col>
                   <img src={Logo} id="footerLogo"/>
+                  <p className="footerMid">We here at Legacy Martial Arts welcome the opportunity to have you or your children study the martial arts with us. We will do our best to help you gain the most from your training!</p>
                 </Col>
               </Row>
-            </div>
           </Col>
           <Col xs={12} md={4} lg={4} xl={4} className="mainCols">
             <h1 className="footerColH1">Contact Info</h1>
-            <div className="sectionWrapper d-flex justify-content-center">
+            <div className="d-flex justify-content-center">
               <Row className="footerColSection">
                 <Col>
                   <h2 className="footerColH2">OPENING HOURS</h2>
