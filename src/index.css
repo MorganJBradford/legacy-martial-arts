@@ -126,4 +126,6 @@ body {
   height: 155px;
   margin-top: 10px;
   border-bottom: 4px solid #A72328;
+  position: relative;
+  right: 5px;
 }
