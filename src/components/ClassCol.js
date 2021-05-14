@@ -14,7 +14,7 @@ function ClassCol() {
           </Row>
         </div>
         <div className="sectionWrapper d-flex justify-content-center">
-          <Row className="colSection">
+          <Row className="classColSection">
             <Col>
               <img src={EmKick} className="colPic"/>
             </Col>
@@ -26,7 +26,7 @@ function ClassCol() {
           </Row>
         </div>
         <div className="sectionWrapper d-flex justify-content-center">
-          <Row className="colSection">
+          <Row className="classColSection">
             <Col>
               <img src={EmKick} className="colPic"/>
             </Col>
@@ -38,7 +38,7 @@ function ClassCol() {
           </Row>
         </div>
         <div className="sectionWrapper d-flex justify-content-center">
-          <Row className="colSection">
+          <Row className="classColSection">
             <Col>
               <img src={EmKick} className="colPic"/>
             </Col>
