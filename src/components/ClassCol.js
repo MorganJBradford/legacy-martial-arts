@@ -13,11 +13,11 @@ function ClassCol() {
             <Col><button className="colBtns">View All</button></Col>
           </Row>
         </div>
-          <div className="sectionWrapper d-flex justify-content-center">
-            <Row className="colSection">
-              <Col><img src={EmKick} className="colPic"/></Col>
-            </Row>
-          </div>
+        <div className="sectionWrapper d-flex justify-content-center">
+          <Row className="colSection">
+            <Col><img src={EmKick} className="colPic"/></Col>
+          </Row>
+        </div>
       </Col>
     </>
   );
