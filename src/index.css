@@ -232,7 +232,7 @@ body {
 #footerLogo {
   max-height: 146px;
   max-width: 146px;
-  margin-top: 38px;
+  margin: 38px 0 20px 92.5px;
   border-radius: 50%;
 }
 
