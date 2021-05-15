@@ -270,7 +270,7 @@ body {
 
 .kidsColSectionTwo {
   background-color: white;
-  box-shadow: 0px -10px 0px white;
+  box-shadow: 0px -16px 0px white;
 }
 
 .kidsColPic {
@@ -291,4 +291,27 @@ body {
   height: 90px;
   padding: 20px 458px;
   margin-bottom: 20px;
+}
+
+.kidsColH1 {
+  color: white;
+  font-size: 34px;
+  height: 50px;
+  padding: 8px 0 60px 10px;
+  margin: 20px 12px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.kidsH2 {
+  color: black;
+  font-size: 28px;
+  height: 50px;
+  padding: 8px 0 0px 16px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.kidsColP {
+  font-size: 17px;
+  padding: 0 0 12px 18px;
+  color: #828282;
 }
