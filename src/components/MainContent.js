@@ -1,6 +1,7 @@
 import Container from 'react-bootstrap/Container'
 import React, { useContext } from "react";
 import Row from "react-bootstrap/Row";
+import Col from "react-bootstrap/Col";
 import { AppContext } from "../AppContext";
 import ClassCol from "./ClassCol";
 import InstructorCol from "./InstructorCol";
@@ -18,6 +19,8 @@ function MainContent() {
           <h1>yas</h1>
           <Row>
             <KidsTkd/>
+            <Col xs={12} md={1} lg={1} xl={1}>
+            </Col>
             <ClassCol/>
           </Row>
         </Container>
