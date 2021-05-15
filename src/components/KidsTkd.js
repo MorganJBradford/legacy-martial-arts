@@ -6,7 +6,7 @@ import EmKick from "../img/em-rhkick.jpg";
 function KidsTkd() {
   return (
     <>
-      <Col xs={12} md={8} lg={8} xl={8} className="kidsCol">
+      <Col xs={12} md={7} lg={7} xl={7} className="kidsCol">
         <div className="kidsColSectionOne kidsColPosition">
           <img src={EmKick} className="kidsColPic"/>
           <h1 className="classColH1">KIDS TAEKWONDO</h1>
