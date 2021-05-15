@@ -49,6 +49,12 @@ body {
   margin: 0;
 }
 
+.kidsClassLinksList {
+  display: table;
+  padding-left: 408px;
+  margin: 0;
+}
+
 .linksLi {
   display: table-cell;
   vertical-align: middle;
@@ -275,7 +281,14 @@ body {
 }
 
 .kidsColPosition {
-  width: 83%;
-  position: relative;
-  left: 124px;
+  width: 96%;
+  margin: 0 20px 0 84px;
+}
+
+.kidsColHeader {
+  background-color: #A72328;
+  color: white;
+  height: 90px;
+  padding: 20px 458px;
+  margin-bottom: 20px;
 }
