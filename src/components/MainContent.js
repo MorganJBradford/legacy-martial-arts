@@ -15,8 +15,8 @@ function MainContent() {
   if (mainControl === "dev") {
     return (
       <div className="mainContent">
+        <h1 className="kidsColHeader">OUR CLASSES</h1>
         <Container>
-          <h1>yas</h1>
           <Row>
             <KidsTkd/>
             <Col xs={12} md={1} lg={1} xl={1}>
