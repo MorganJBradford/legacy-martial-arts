@@ -1,11 +1,21 @@
-import React from "react";
+import React, { useContext } from "react";
 import HomeCarousel from "./HomeCarousel";
 import LogoLinks from "./LogoLinks";
 import TopBar from "./TopBar";
+import { AppContext } from "../AppContext";
+
 
 function Header() {
-  // TODO: check state slice responsible for Carousel|| hook?
-  // if (stateCheck) {
+  const { mainControl, setMainControl } = useContext(AppContext);
+
+  if (mainControl === "dev") {
+    return (
+      <>
+        <TopBar />
+        <LogoLinks />
+      </>
+    );
+  } else {
     return (
       <>
         <TopBar />
@@ -13,15 +23,7 @@ function Header() {
         <HomeCarousel />
       </>
     );
-  // } else {
-  //   return (
-  //     <>
-  //       <TopBar />
-  //       <Logo />
-  //       <Links />
-  //     </>
-  //   );
-  // }
+  }
 }
 
 export default Header;
