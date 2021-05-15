@@ -1,10 +1,12 @@
-import React from "react";
+import React, { useContext } from "react";
 import Container from "react-bootstrap/Container";
 import Col from "react-bootstrap/Col";
 import Row from "react-bootstrap/Row";
 import LegacyLogo from "../img/legacy-logo.jpg";
+import { AppContext } from "../AppContext";
 
 function Logo() {
+  const { mainControl } = useContext(AppContext);
   return (
     <Container>
       <Row>
@@ -13,7 +15,7 @@ function Logo() {
         </Col>
         <Col md={10}>
           <div className="linksDiv">
-            <ul className="linksList">
+            <ul className={mainControl !== "dev" ? "linksList" : "kidsClassLinksList"}>
               <li className="linksLi">HOME</li>
               <li className="linksLi">ABOUT</li>
               <li className="linksLi">CLASSES</li>
