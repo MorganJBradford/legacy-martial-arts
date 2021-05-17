@@ -6,7 +6,7 @@ import { AppContext } from "../AppContext";
 
 
 function Header() {
-  const { mainControl, setMainControl } = useContext(AppContext);
+  const { mainControl } = useContext(AppContext);
 
   if (mainControl !== "home") {
     return (
