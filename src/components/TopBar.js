@@ -3,6 +3,8 @@ import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import NavDropdown from "react-bootstrap/NavDropdown";
 import { AppContext } from "../AppContext";
+import Row from "react-bootstrap/Row";
+import Col from "react-bootstrap/Col";
 
 function TopBar() {
   const { setMainControl } = useContext(AppContext);
@@ -14,11 +16,39 @@ function TopBar() {
         <Nav className="mr-auto">
           <i class="fa fa-calendar"></i>
           <NavDropdown title="Opening Hours" id="collapsible-nav-dropdown" className="test">
-            <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-            <NavDropdown.Item href="#action/3.2">Another action</NavDropdown.Item>
-            <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
-            <NavDropdown.Divider />
-            <NavDropdown.Item href="#action/3.4">Separated link</NavDropdown.Item>
+            <Row className="footerColSection">
+              <Col>
+                <h2 className="footerColH2">OPENING HOURS</h2>
+                <Row className="locationSection">
+                  <Col><h2 className="footerColH2">MONDAY</h2></Col>
+                  <Col><p className="footerHours">3:30pm - 830:pm</p></Col>
+                </Row>
+                <Row className="locationSectionMid">
+                  <Col><h2 className="footerColH2">TUESDAY</h2></Col>
+                  <Col><p className="footerHours">11:30am - 8:30pm</p></Col>
+                </Row>
+                <Row className="locationSection">
+                  <Col><h2 className="footerColH2">WEDNESDAY</h2></Col>
+                  <Col><p className="footerHours">3:30pm - 830:pm</p></Col>
+                </Row>
+                <Row className="locationSectionMid">
+                  <Col><h2 className="footerColH2">THURSDAY</h2></Col>
+                  <Col><p className="footerHours">3:30pm - 830:pm</p></Col>
+                </Row>
+                <Row className="locationSection">
+                  <Col><h2 className="footerColH2">FRIDAY</h2></Col>
+                  <Col><p className="footerHours">11:30am - 7:30pm</p></Col>
+                </Row>
+                <Row className="locationSectionMid">
+                  <Col><h2 className="footerColH2">SATURDAY</h2></Col>
+                  <Col><p className="footerHours">9:15am - 12:30pm</p></Col>
+                </Row>
+                <Row className="locationSection">
+                  <Col><h2 className="footerColH2">SUNDAY</h2></Col>
+                  <Col><p className="footerHours">CLOSED</p></Col>
+                </Row>
+              </Col>
+            </Row>
           </NavDropdown>
           <i className="fa fa-phone"></i>
           <Nav.Link href="#phone" className="test">(630) 224-0580</Nav.Link>
