@@ -247,6 +247,11 @@ body {
   height: 50px;
 }
 
+.mainContentBuffer {
+  background-color: #E4E8EE;
+  height: 20px;
+}
+
 /* TODO: fix background photo or background */
 
 .footerBackground {
