@@ -14,7 +14,7 @@ function FamilyTkd() {
         <div className="kidsColSectionTwo kidsColPosition">
           <h2 className="kidsH2">Keep Your Family Strong!</h2>
           <p className="kidsColP">
-          Our Taekwondo family classes will provide you with a great opportunity for you to teach your children by example. From both of your efforts, you’ll give your child the gift of:
+            Our Taekwondo family classes will provide you with a great opportunity for you to teach your children by example. From both of your efforts, you’ll give your child the gift of:
           </p>
           <h2 className="kidsH2">Positive Attitude:</h2>
           <p className="kidsColP">
