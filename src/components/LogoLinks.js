@@ -15,7 +15,7 @@ function Logo() {
         </Col>
         <Col md={10}>
           <div className="linksDiv">
-            <ul className={mainControl === "kidsClass" ? "kidsClassLinksList" : "linksList"}>
+            <ul className={mainControl === "home" ? "linksList" : "altLinksList"}>
               <li className="linksLi">HOME</li>
               <li className="linksLi">ABOUT</li>
               <li className="linksLi">CLASSES</li>
