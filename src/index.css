@@ -49,7 +49,7 @@ body {
   margin: 0;
 }
 
-.kidsClassLinksList {
+.altLinksList {
   display: table;
   padding-left: 408px;
   margin: 0;
@@ -358,3 +358,14 @@ body {
   background-color: #f3f5f8;
   font-style: italic;
 }
+
+.instructorsColPic {
+  height: 700px;
+  width: 580px;
+  margin: 15px 0 0 14px;
+  border-bottom: 4px solid #A72328;
+}
+
+/* .instructorColUl {
+  border-top: 10px solid white;
+} */
