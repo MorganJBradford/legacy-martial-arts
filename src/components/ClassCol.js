@@ -35,7 +35,7 @@ function ClassCol() {
             <Col>
               <h1 className="classColH1">FAMILY TAEKWONDO</h1>
               <p className="classColP">Keep your family strong while having a great time together.</p>
-              <button className="classColBtn">MORE INFO</button>
+              <button className="classColBtn" onClick={() => setMainControl("familyClass")}>MORE INFO</button>
             </Col>
           </Row>
         </div>

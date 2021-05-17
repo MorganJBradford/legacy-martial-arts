@@ -39,7 +39,7 @@ function MainContent() {
         </Container>
       </div>
     ); 
-  } else if (mainControl === "familyTkd") {
+  } else if (mainControl === "familyClass") {
     return (
       <div className="mainContent">
         <h1 className="kidsColHeader">OUR CLASSES</h1>
