@@ -8,10 +8,11 @@ import InstructorCol from "./InstructorCol";
 import NewsCol from "./NewsCol";
 import FamilyTkd from "./FamilyTkd";
 import KidsTkd from "./KidsTkd";
+import MasterJane from "./MasterJane";
+import InstructorJeremy from "./InstructorJeremy";
 
 function MainContent() {
   const { mainControl } = useContext(AppContext);
-
 
   if (mainControl === "home") {
     return (
@@ -46,6 +47,34 @@ function MainContent() {
         <Container>
           <Row>
             <FamilyTkd/>
+            <Col xs={12} md={1} lg={1} xl={1}>
+            </Col>
+            <ClassCol/>
+          </Row>
+        </Container>
+      </div>
+    ); 
+  } else if (mainControl === "mj") {
+    return (
+      <div className="mainContent">
+        <h1 className="kidsColHeader">OUR CLASSES</h1>
+        <Container>
+          <Row>
+            <MasterJane/>
+            <Col xs={12} md={1} lg={1} xl={1}>
+            </Col>
+            <ClassCol/>
+          </Row>
+        </Container>
+      </div>
+    ); 
+  } else if (mainControl === "jeremy") {
+    return (
+      <div className="mainContent">
+        <h1 className="kidsColHeader">OUR CLASSES</h1>
+        <Container>
+          <Row>
+            <InstructorJeremy/>
             <Col xs={12} md={1} lg={1} xl={1}>
             </Col>
             <ClassCol/>
