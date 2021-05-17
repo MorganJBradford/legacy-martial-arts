@@ -67,7 +67,7 @@ function MainContent() {
             <MasterJane/>
             <Col xs={12} md={1} lg={1} xl={1}>
             </Col>
-            <ClassCol/>
+            <InstructorCol/>
           </Row>
         </Container>
       </div>
@@ -81,7 +81,7 @@ function MainContent() {
             <InstructorJeremy/>
             <Col xs={12} md={1} lg={1} xl={1}>
             </Col>
-            <ClassCol/>
+            <InstructorCol/>
           </Row>
         </Container>
       </div>
@@ -95,7 +95,7 @@ function MainContent() {
             <InstructorTati/>
             <Col xs={12} md={1} lg={1} xl={1}>
             </Col>
-            <ClassCol/>
+            <InstructorCol/>
           </Row>
         </Container>
       </div>
