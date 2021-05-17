@@ -9,10 +9,22 @@ import NewsCol from "./NewsCol";
 import KidsTkd from "./KidsTkd";
 
 function MainContent() {
-  const { mainControl, setMainControl } = useContext(AppContext);
+  const { mainControl } = useContext(AppContext);
 
 
-  if (mainControl === "dev") {
+  if (mainControl === "home") {
+    return (
+      <div className="mainContent">
+        <Container>
+          <Row>
+            <ClassCol />
+            <InstructorCol />
+            <NewsCol />
+          </Row>
+        </Container>
+      </div>
+    );
+  } else if (mainControl === "kidsClass") {
     return (
       <div className="mainContent">
         <h1 className="kidsColHeader">OUR CLASSES</h1>
@@ -26,18 +38,6 @@ function MainContent() {
         </Container>
       </div>
     ); 
-  } else {
-    return (
-      <div className="mainContent">
-        <Container>
-          <Row>
-            <ClassCol />
-            <InstructorCol />
-            <NewsCol />
-          </Row>
-        </Container>
-      </div>
-    );
   }
 }
 
