@@ -30,6 +30,7 @@ function KidsTkd() {
             It’s true; kids who take TKD develop better self-confidence.<img src={colPicTwo} className="kidsColPhotoLeft floatLeft"/> They’re encouraged to take chances, to push themselves further than they thought possible. The success they experience through TKD teaches them that they can be successful at anything if they truly believe they can and are willing to work hard. Improved confidence leads to better grades, a better circle of friends, better performance in sports and extracurricular activities in general.
           </p>
           <div style={{clear: "both"}}></div>
+          <blockquote>“What my kids can do now is nothing short of amazing!”</blockquote>
           <h2 className="kidsH2">Self-Defense:</h2>
           <p className="kidsColP">
             TKD teaches two forms of self-defense. One is physical; your child will improve his or her strength, flexibility and overall health. Additionally, your child will learn to strike with tremendous power and effectiveness. Hopefully your child will never be picked on or need to fight… but should the occasion arise, shouldn’t everyone know how to protect themselves? The second form of self-defense TKD teaches is internal. Children learn to spot danger and avoid dangerous people, places and activities. TKD can help your child avoid the need for physical confrontation. This second form of self-defense is perhaps the more valuable of the two.

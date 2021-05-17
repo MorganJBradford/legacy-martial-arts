@@ -337,3 +337,14 @@ body {
   height: 155px;
   margin: 10px 16px 10px 8px;
 }
+
+blockquote {
+  border-left: 3px solid #a72328;
+  font-size: 22px;
+  color: #3d4042;
+  height: 70px;
+  margin: 16px;
+  padding: 16px;
+  background-color: #f3f5f8;
+  font-style: italic;
+}
