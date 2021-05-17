@@ -389,6 +389,9 @@ body {
   background-color: #A72328;
 }
 
-/* .instructorColUl {
-  border-top: 10px solid white;
-} */
+.adultColPic {
+  width: 580px;
+  height: 280px;
+  margin-left: 14px;
+  border-bottom: 4px solid #A72328;
+}
