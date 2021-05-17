@@ -11,6 +11,7 @@ import KidsTkd from "./KidsTkd";
 import MasterJane from "./MasterJane";
 import InstructorJeremy from "./InstructorJeremy";
 import InstructorTati from "./InstructorTati";
+import AdultTkd from "./AdultTkd";
 
 function MainContent() {
   const { mainControl } = useContext(AppContext);
@@ -51,6 +52,20 @@ function MainContent() {
         <Container>
           <Row>
             <FamilyTkd/>
+            <Col xs={12} md={1} lg={1} xl={1}>
+            </Col>
+            <ClassCol/>
+          </Row>
+        </Container>
+      </div>
+    ); 
+  } else if (mainControl === "adultClass") {
+    return (
+      <div className="mainContent">
+        <h1 className="kidsColHeader">OUR CLASSES</h1>
+        <Container>
+          <Row>
+            <AdultTkd/>
             <Col xs={12} md={1} lg={1} xl={1}>
             </Col>
             <ClassCol/>
@@ -99,7 +114,7 @@ function MainContent() {
           </Row>
         </Container>
       </div>
-    ); 
+    );
   }
 }
 
