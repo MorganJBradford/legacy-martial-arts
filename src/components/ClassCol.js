@@ -3,6 +3,8 @@ import { AppContext } from "../AppContext";
 import Col from "react-bootstrap/Col";
 import Row from "react-bootstrap/Row";
 import EmKick from "../img/em-rhkick.jpg";
+import FamilyClass from "../img/family-class.jpg";
+import AdultTkdHkd from "../img/adultTkdHkd.jpg";
 
 function ClassCol() {
   const { setMainControl } = useContext(AppContext);
@@ -30,7 +32,7 @@ function ClassCol() {
         <div className="sectionWrapper d-flex justify-content-center">
           <Row className="classColSection">
             <Col>
-              <img src={EmKick} className="colPic"/>
+              <img src={FamilyClass} className="colPic"/>
             </Col>
             <Col>
               <h1 className="classColH1">FAMILY TAEKWONDO</h1>
@@ -42,7 +44,7 @@ function ClassCol() {
         <div className="sectionWrapper d-flex justify-content-center">
           <Row className="classColSection">
             <Col>
-              <img src={EmKick} className="colPic"/>
+              <img src={AdultTkdHkd} className="colPic"/>
             </Col>
             <Col>
               <h1 className="classColH1">ADULT TAEKWONDO & HAPKIDO</h1>
