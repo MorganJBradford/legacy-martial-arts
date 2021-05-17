@@ -315,3 +315,25 @@ body {
   padding: 0 0 12px 18px;
   color: #828282;
 }
+
+.floatLeft {
+  float: left;
+}
+
+.floatRight {
+  float: right;
+}
+
+.kidsColPhotoLeft {
+  max-width: 280px;
+  width: 280px;
+  height: 155px;
+  margin: 10px 10px 10px 0;
+}
+
+.kidsColPhotoRight {
+  max-width: 280px;
+  width: 280px;
+  height: 155px;
+  margin: 10px 16px 10px 8px;
+}
