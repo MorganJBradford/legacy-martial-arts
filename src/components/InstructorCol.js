@@ -8,6 +8,13 @@ import Jeremy from "../img/jeremy2.jpg";
 
 function InstructorCol() {
   const { setMainControl } = useContext(AppContext);
+
+  function scrollToTop(param) {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+    setMainControl(param)
+  }
+
   return (
     <>
       <Col xs={12} md={4} lg={4} xl={4} className="mainCols">
@@ -25,7 +32,7 @@ function InstructorCol() {
             <Col>
               <h1 className="instructorColH1">MASTER JANE</h1>
               <p className="classColP">Taekwondo, Hapkido</p>
-              <button className="classColBtn" onClick={() => setMainControl("mj")}>MORE INFO</button>
+              <button className="classColBtn" onClick={() => scrollToTop("mj")}>MORE INFO</button>
             </Col>
           </Row>
         </div>
@@ -37,7 +44,7 @@ function InstructorCol() {
             <Col>
               <h1 className="instructorColH1">INSTRUCTOR JEREMY</h1>
               <p className="classColP">Taekwondo</p>
-              <button className="classColBtn" onClick={() => setMainControl("jeremy")}>MORE INFO</button>
+              <button className="classColBtn" onClick={() => scrollToTop("jeremy")}>MORE INFO</button>
             </Col>
           </Row>
         </div>
@@ -49,7 +56,7 @@ function InstructorCol() {
             <Col>
               <h1 className="instructorColH1">INSTRUCTOR TATI</h1>
               <p className="classColP">Taekwondo</p>
-              <button className="classColBtn" onClick={() => setMainControl("tati")}>MORE INFO</button>
+              <button className="classColBtn" onClick={() => scrollToTop("tati")}>MORE INFO</button>
             </Col>
           </Row>
         </div>
