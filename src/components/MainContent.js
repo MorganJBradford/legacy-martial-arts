@@ -6,6 +6,7 @@ import { AppContext } from "../AppContext";
 import ClassCol from "./ClassCol";
 import InstructorCol from "./InstructorCol";
 import NewsCol from "./NewsCol";
+import FamilyTkd from "./FamilyTkd";
 import KidsTkd from "./KidsTkd";
 
 function MainContent() {
@@ -31,6 +32,20 @@ function MainContent() {
         <Container>
           <Row>
             <KidsTkd/>
+            <Col xs={12} md={1} lg={1} xl={1}>
+            </Col>
+            <ClassCol/>
+          </Row>
+        </Container>
+      </div>
+    ); 
+  } else if (mainControl === "familyTkd") {
+    return (
+      <div className="mainContent">
+        <h1 className="kidsColHeader">OUR CLASSES</h1>
+        <Container>
+          <Row>
+            <FamilyTkd/>
             <Col xs={12} md={1} lg={1} xl={1}>
             </Col>
             <ClassCol/>
