@@ -8,7 +8,7 @@ import { AppContext } from "../AppContext";
 function Header() {
   const { mainControl, setMainControl } = useContext(AppContext);
 
-  if (mainControl === "dev") {
+  if (mainControl !== "home") {
     return (
       <>
         <TopBar />
