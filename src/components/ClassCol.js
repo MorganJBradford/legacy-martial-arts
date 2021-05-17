@@ -1,9 +1,11 @@
-import React from "react";
+import React, { useContext } from "react";
+import { AppContext } from "../AppContext";
 import Col from "react-bootstrap/Col";
 import Row from "react-bootstrap/Row";
 import EmKick from "../img/em-rhkick.jpg";
 
 function ClassCol() {
+  const { setMainControl } = useContext(AppContext);
   return (
     <>
       <Col xs={12} md={4} lg={4} xl={4} className="mainCols">
@@ -21,7 +23,7 @@ function ClassCol() {
             <Col>
               <h1 className="classColH1">KIDS TAEKWONDO</h1>
               <p className="classColP">Taekwondo builds healthy kids, improving their physical coordination and self confidence in a positive atmosphere.</p>
-              <button className="classColBtn">MORE INFO</button>
+              <button className="classColBtn" onClick={() => setMainControl("kidsClass")}>MORE INFO</button>
             </Col>
           </Row>
         </div>
