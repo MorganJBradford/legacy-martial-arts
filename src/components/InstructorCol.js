@@ -37,7 +37,7 @@ function InstructorCol() {
             <Col>
               <h1 className="instructorColH1">INSTRUCTOR JEREMY</h1>
               <p className="classColP">Taekwondo</p>
-              <button className="classColBtn">MORE INFO</button>
+              <button className="classColBtn" onClick={() => setMainControl("jeremy")}>MORE INFO</button>
             </Col>
           </Row>
         </div>
@@ -49,7 +49,7 @@ function InstructorCol() {
             <Col>
               <h1 className="instructorColH1">INSTRUCTOR TATI</h1>
               <p className="classColP">Taekwondo</p>
-              <button className="classColBtn">MORE INFO</button>
+              <button className="classColBtn" onClick={() => setMainControl("tati")}>MORE INFO</button>
             </Col>
           </Row>
         </div>
