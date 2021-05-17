@@ -220,7 +220,13 @@ body {
   margin: 8px 0 6px 0;
   padding: 6px;
   color: white;
-  border-radius: 3px;
+  float: right;
+}
+
+.footerHours {
+  margin: 0px 0 0px 0;
+  padding: 8px 0 0 10px;
+  color: white;
   float: right;
 }
 
