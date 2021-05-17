@@ -377,6 +377,18 @@ body {
   border-bottom: 4px solid #A72328;
 }
 
+.dropdown-menu {
+  background-color: #ffffff00;
+  border: none;
+  margin: 0 20px 0 0;
+}
+
+.scheduleBase {
+  width: 300px;
+  border-left: 6px #A72328 solid;
+  background-color: #A72328;
+}
+
 /* .instructorColUl {
   border-top: 10px solid white;
 } */

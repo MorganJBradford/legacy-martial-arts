@@ -16,7 +16,7 @@ function TopBar() {
         <Nav className="mr-auto">
           <i class="fa fa-calendar"></i>
           <NavDropdown title="Opening Hours" id="collapsible-nav-dropdown" className="test">
-            <Row className="footerColSection">
+            <Row className="scheduleBase">
               <Col>
                 <h2 className="footerColH2">OPENING HOURS</h2>
                 <Row className="locationSection">
