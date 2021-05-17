@@ -1,10 +1,13 @@
-import React from "react";
+import React, { useContext } from "react";
+import { AppContext } from "../AppContext";
 import Col from "react-bootstrap/Col";
 import Row from "react-bootstrap/Row";
-import EmKick from "../img/em-rhkick.jpg"
 import MJ from "../img/mj1.jpg";
+import Tati from "../img/tati1.jpg";
+import Jeremy from "../img/jeremy2.jpg";
 
 function InstructorCol() {
+  const { setMainControl } = useContext(AppContext);
   return (
     <>
       <Col xs={12} md={4} lg={4} xl={4} className="mainCols">
@@ -22,17 +25,17 @@ function InstructorCol() {
             <Col>
               <h1 className="instructorColH1">MASTER JANE</h1>
               <p className="classColP">Taekwondo, Hapkido</p>
-              <button className="classColBtn">MORE INFO</button>
+              <button className="classColBtn" onClick={() => setMainControl("mj")}>MORE INFO</button>
             </Col>
           </Row>
         </div>
         <div className="sectionWrapper d-flex justify-content-center">
           <Row className="instructorColSection">
             <Col>
-              <img src={EmKick} className="colPic"/>
+              <img src={Jeremy} className="colPic"/>
             </Col>
             <Col>
-              <h1 className="instructorColH1">INSTRUCTOR TATI</h1>
+              <h1 className="instructorColH1">INSTRUCTOR JEREMY</h1>
               <p className="classColP">Taekwondo</p>
               <button className="classColBtn">MORE INFO</button>
             </Col>
@@ -41,10 +44,10 @@ function InstructorCol() {
         <div className="sectionWrapper d-flex justify-content-center">
           <Row className="instructorColSection">
             <Col>
-              <img src={EmKick} className="colPic"/>
+              <img src={Tati} className="colPic"/>
             </Col>
             <Col>
-              <h1 className="instructorColH1">INSTRUCTOR JEREMY</h1>
+              <h1 className="instructorColH1">INSTRUCTOR TATI</h1>
               <p className="classColP">Taekwondo</p>
               <button className="classColBtn">MORE INFO</button>
             </Col>
