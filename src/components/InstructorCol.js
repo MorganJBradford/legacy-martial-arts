@@ -20,7 +20,7 @@ function InstructorCol() {
       <Col xs={10} sm={10} md={5} lg={4} xl={4} className="mainCols">
         <div className="headerWrapper d-flex justify-content-center">
           <Row className="colHeader">
-            <Col><h1 className="colH1">OUR INSTRUCTORS</h1></Col>
+            <Col><h1 className="colH1OverFlow">OUR INSTRUCTORS</h1></Col>
             <Col><button className="colBtns">View All</button></Col>
           </Row>
         </div>
