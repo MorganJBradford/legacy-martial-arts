@@ -12,7 +12,7 @@ function Footer() {
     <div className="footerBackground">
       <Container>
         <Row>
-          <Col xs={12} md={4} lg={4} xl={4} className="mainCols">
+          <Col xs={4} sm={4} md={4} lg={4} xl={4} className="footerCols">
             <h1 className="footerColH1">Contact Info</h1>
             <div className="d-flex justify-content-center">
               <Row className="footerColSection">
@@ -34,7 +34,7 @@ function Footer() {
               </Row>
             </div>
           </Col>
-          <Col xs={12} md={4} lg={4} xl={4} className="mainCols">
+          <Col xs={4} sm={4} md={4} lg={4} xl={4} className="footerCols">
               <Row>
                 <Col>
                   <img src={Logo} alt="Legacy Martial Arts Logo" id="footerLogo"/>
@@ -42,7 +42,7 @@ function Footer() {
                 </Col>
               </Row>
           </Col>
-          <Col xs={12} md={4} lg={4} xl={4} className="mainCols">
+          <Col xs={4} sm={4} md={4} lg={4} xl={4} className="footerCols">
             <h1 className="footerColH1">Contact Info</h1>
             <div className="d-flex justify-content-center">
               <Row className="footerColSection">

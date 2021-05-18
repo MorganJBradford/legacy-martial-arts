@@ -407,3 +407,25 @@ body {
     right: 60px;
   }
 }
+
+@media only screen and (max-width: 991px) {
+  #legacyLogo, .linksList {
+    position: relative;
+    right: 160px;
+  }
+
+  .mainCols{
+    margin: 10px 10px 10px 36px;
+  }
+
+  #footerLogo {
+    position: relative;
+    right: 56px;
+  }
+
+  .footerBackground {
+    background-image: url(./img/footer-991.png);
+    background-repeat: no-repeat;
+    height: 780px;
+  }
+}
