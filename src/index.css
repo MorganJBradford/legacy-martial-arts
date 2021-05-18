@@ -455,7 +455,6 @@ body {
   }
 
   .linksList {
-    height: 5px;
     position: relative;
     right: 332px;
   }
@@ -471,8 +470,16 @@ body {
 }
 
 @media only screen and (max-width: 375px) {
+  #footerLogo {
+    width: 80%;
+  }
+  .footerCols {
+    font-size: 12px;
+  }
+
   .linksLi {
     font-size: 12px;
-    padding: 0 11px 0 10px;
+    height: 60px;
+    padding: 0 10px 0 11px;
   }
 }
