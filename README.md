@@ -79,7 +79,6 @@ A website for legacy-martial-arts Martial Arts, LLC.
 * [CSS](https://en.wikipedia.org/wiki/CSS)
 * [React-Bootstrap](https://react-bootstrap.github.io)
 * [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
-<!-- * [Jest](https://jestjs.io) -->
 * [React](https://reactjs.org)
 * [Git & GitHub](https://github.com/)
 
