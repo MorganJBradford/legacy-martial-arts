@@ -17,7 +17,7 @@ function AdultTkd() {
           <p className="kidsColP">
             Our Taekwondo and Hapkido classes will help you increase or maintain your flexibility, build stamina and endurance and improve your balance. Training includes a proper warm-up and both aerobic and anaerobic activities. As you progress through the belt ranking system, you’ll also be progressing physically.
           </p>
-          <img src={AdultClass} className="adultColPic"/>
+          <img src={AdultClass} className="adultColPic "/>
           <h2 className="kidsH2">Increase Your Own Self Confidence</h2>
           <p className="kidsColP">
             Whether you’ve always been an athlete — or believe that the term “sport” isn’t in your vocabulary, you’ll see yourself gain skill and knowledge in our program.
