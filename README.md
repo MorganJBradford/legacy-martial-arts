@@ -31,10 +31,9 @@
     * Nav bar
     * Logo
   * Image Carousel
-  * Class information
   * Schedule
   * About Master J (and other instructors)
-  * Foot
+  * Footer
     * Location
     * Business hours
     * Contact info
@@ -82,8 +81,6 @@ A website for legacy-martial-arts Martial Arts, LLC.
 * [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 <!-- * [Jest](https://jestjs.io) -->
 * [React](https://reactjs.org)
-<!-- * [Redux](https://redux.js.org) -->
-<!-- * [React Redux](https://react-redux.js.org) -->
 * [Git & GitHub](https://github.com/)
 
 ------------------------------
