@@ -48,7 +48,7 @@ body {
   padding-left: 5em;
 }
 
-#legacyLogo:hover, .linksList:hover {
+#legacyLogo:hover, #altLegacyLogo:hover, .linksList:hover, .altLinksList:hover {
   cursor: pointer;
 }
 
