@@ -8,7 +8,7 @@ import colPicThree from "../img/kidsColPicThree.jpg";
 function KidsTkd() {
   return (
     <>
-      <Col xs={12} md={7} lg={7} xl={7} className="kidsCol">
+      <Col xs={12} md={10} lg={7} xl={7} className="kidsCol">
         <div className="kidsColSectionOne kidsColPosition">
           <img src={EmKick} alt="A student kicking toward the sky" className="detailHeaderPic"/>
           <h1 className="kidsColH1">KIDS TAEKWONDO</h1>

@@ -468,14 +468,26 @@ body {
     right: 64px;
   }
 
+  #altLegacyLogo {
+    display: none;
+  }
+
+  .kidsColHeader {
+    padding: 20px 0 20px 122px;
+  }
+
   .linksList {
     position: relative;
     right: 260px;
   }
+  .altLinksList {
+    position: relative;
+    right: 298px;
+  }
 }
 
 @media only screen and (max-width: 540px) {
-  #legacyLogo {
+  #legacyLogo, #altLegacyLogo {
     display: none;
   }
 
@@ -487,6 +499,21 @@ body {
     position: relative;
     right: 332px;
   }
+  .altLinksList {
+    position: relative;
+    right: 280px;
+  }
+
+  .kidsColHeader {
+    padding: 20px 0 20px 24px;
+  }
+
+  .kidsCol {
+    max-width: 100vw !important;
+    width: 10vw !important;
+    position: relative;
+    right: 74px;
+  }
 
   .footerColH2 {
     margin: 2px;
@@ -495,6 +522,26 @@ body {
   .footerHours, .footerLocation {
     margin: 4px 0 2px 0;
     padding: 0;
+  }
+}
+
+@media only screen and (max-width: 414px) {
+  #footerLogo {
+    width: 80%;
+  }
+  .footerCols {
+    font-size: 12px;
+    margin-top: 40px;
+  }
+
+  .footerBuffer {
+    display: none;
+  }
+
+  .linksLi {
+    font-size: 12px;
+    height: 60px;
+    padding: 0 15px 0 14px;
   }
 }
 
