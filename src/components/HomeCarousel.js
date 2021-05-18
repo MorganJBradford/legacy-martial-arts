@@ -6,7 +6,7 @@ import WolfPack from "../img/wolf-pack.jpg"
 
 function HomeCarousel() {
   return (
-    <Carousel>
+    <Carousel controls={false} indicators={false} interval={3500}>
       <Carousel.Item>
         <img
           className="d-block w-100 carousel container"
