@@ -429,3 +429,15 @@ body {
     height: 780px;
   }
 }
+
+@media only screen and (max-width: 768px) {
+  #legacyLogo {
+    position: relative;
+    right: 64px;
+  }
+
+  .linksList {
+    position: relative;
+    right: 260px;
+  }
+}
