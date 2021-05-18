@@ -51,7 +51,7 @@ function TopBar() {
             </Row>
           </NavDropdown>
           <i className="fa fa-phone"></i>
-          <Nav.Link href="#phone" className="test">(630) 224-0580</Nav.Link>
+          <Nav.Link href="#phone">(630) 224-0580</Nav.Link>
         </Nav>
         <Nav>
           <Nav.Link href="#socials">

@@ -6,7 +6,7 @@ import LegacyLogo from "../img/legacy-logo.jpg";
 import { AppContext } from "../AppContext";
 
 function Logo() {
-  const { mainControl } = useContext(AppContext);
+  const { mainControl, setMainControl } = useContext(AppContext);
   return (
     <Container>
       <Row>
@@ -16,7 +16,7 @@ function Logo() {
         <Col md={10}>
           <div className="linksDiv">
             <ul className={mainControl === "home" ? "linksList" : "altLinksList"}>
-              <li className="linksLi">HOME</li>
+              <li className={mainControl === "home" ? "linksLi bgRed" : "linksLi"} onClick={() => setMainControl("home")}>HOME</li>
               <li className="linksLi">ABOUT</li>
               <li className="linksLi">CLASSES</li>
               <li className="linksLi">FAQ</li>

@@ -10,7 +10,7 @@ function KidsTkd() {
     <>
       <Col xs={12} md={7} lg={7} xl={7} className="kidsCol">
         <div className="kidsColSectionOne kidsColPosition">
-          <img src={EmKick} className="kidsColPic"/>
+          <img src={EmKick} className="detailHeaderPic"/>
           <h1 className="kidsColH1">KIDS TAEKWONDO</h1>
           <p className="kidsColP">What my kids can do now is nothing short of amazing.</p>
         </div>

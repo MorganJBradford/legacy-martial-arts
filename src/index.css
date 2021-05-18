@@ -68,6 +68,13 @@ body {
   padding: 20px;
 }
 
+
+.bgRed {
+  background-color: #A72328;
+  color: white;
+}
+
+
 .linksLi:hover {
   background-color: #A72328;
   color: white;
@@ -152,7 +159,7 @@ body {
   color: #828282;
 }
 
-.classColBtn {
+.moreInfoBtnRed {
   background-color: #A72328;
   color: white;
   font-size: 11px;
@@ -182,18 +189,6 @@ body {
   font-size: 16px;
   margin: 10px 6px 10px 6px;
   color: #828282;
-}
-
-.instructorColBtn {
-  background-color: #A72328;
-  color: white;
-  font-size: 11px;
-  padding: 0 0 1px 0px;
-  border-radius: 4px;
-  height: 33px;
-  width: 71px;
-  border: none;
-  margin: 0 6px 14px 6px;
 }
 
 .footerColSection {
@@ -284,7 +279,7 @@ body {
   box-shadow: 0px -16px 0px white;
 }
 
-.kidsColPic {
+.detailHeaderPic {
   width: 580px;
   height: 330px;
   margin: 15px 0 0 14px;
@@ -387,11 +382,4 @@ body {
   width: 300px;
   border-left: 6px #A72328 solid;
   background-color: #A72328;
-}
-
-.adultColPic {
-  width: 580px;
-  height: 280px;
-  margin-left: 14px;
-  border-bottom: 4px solid #A72328;
 }

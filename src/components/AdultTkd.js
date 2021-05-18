@@ -8,7 +8,7 @@ function AdultTkd() {
     <>
       <Col xs={12} md={7} lg={7} xl={7} className="kidsCol">
         <div className="kidsColSectionOne kidsColPosition">
-          <img src={colHeaderPic} className="kidsColPic"/>
+          <img src={colHeaderPic} className="detailHeaderPic"/>
           <h1 className="kidsColH1">ADULT TAEKWONDO & HAPKIOD</h1>
           <p className="kidsColP">Improve your fitness</p>
         </div>

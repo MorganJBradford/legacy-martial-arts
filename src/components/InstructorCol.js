@@ -32,7 +32,7 @@ function InstructorCol() {
             <Col>
               <h1 className="instructorColH1">MASTER JANE</h1>
               <p className="classColP">Taekwondo, Hapkido</p>
-              <button className="classColBtn" onClick={() => scrollToTop("mj")}>MORE INFO</button>
+              <button className="moreInfoBtnRed" onClick={() => scrollToTop("mj")}>MORE INFO</button>
             </Col>
           </Row>
         </div>
@@ -44,7 +44,7 @@ function InstructorCol() {
             <Col>
               <h1 className="instructorColH1">INSTRUCTOR JEREMY</h1>
               <p className="classColP">Taekwondo</p>
-              <button className="classColBtn" onClick={() => scrollToTop("jeremy")}>MORE INFO</button>
+              <button className="moreInfoBtnRed" onClick={() => scrollToTop("jeremy")}>MORE INFO</button>
             </Col>
           </Row>
         </div>
@@ -56,7 +56,7 @@ function InstructorCol() {
             <Col>
               <h1 className="instructorColH1">INSTRUCTOR TATI</h1>
               <p className="classColP">Taekwondo</p>
-              <button className="classColBtn" onClick={() => scrollToTop("tati")}>MORE INFO</button>
+              <button className="moreInfoBtnRed" onClick={() => scrollToTop("tati")}>MORE INFO</button>
             </Col>
           </Row>
         </div>
