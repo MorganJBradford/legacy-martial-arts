@@ -273,14 +273,6 @@ body {
   width: 100%;
 }
 
-@media only screen and (max-width: 1920px) {
-  .footerBackground {
-    background-image: url(./img/footer-pic2.png);
-    background-repeat: no-repeat;
-    height: 533px;
-  }
-}
-
 .kidsColSectionOne {
   background-color: #262729;
 }
@@ -393,4 +385,25 @@ body {
   width: 300px;
   border-left: 6px #A72328 solid;
   background-color: #A72328;
+}
+
+.mainColWidth {
+  width: 300px;
+}
+
+@media only screen and (max-width: 1920px) {
+  .footerBackground {
+    background-image: url(./img/footer-pic2.png);
+    background-repeat: no-repeat;
+    height: 533px;
+  }
+}
+
+
+
+@media only screen and (max-width: 1199px) {
+  #legacyLogo, .linksList {
+    position: relative;
+    right: 60px;
+  }
 }
