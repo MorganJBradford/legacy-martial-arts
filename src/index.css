@@ -41,6 +41,13 @@ body {
   padding-left: 5em;
 }
 
+#altLegacyLogo {
+  max-height: 166px;
+  max-width: 166px;
+  margin-top: 10px;
+  padding-left: 5em;
+}
+
 #legacyLogo:hover, .linksList:hover {
   cursor: pointer;
 }
@@ -405,6 +412,28 @@ body {
   #legacyLogo, .linksList {
     position: relative;
     right: 60px;
+  }
+
+  .detailHeaderPic {
+    width: 94.5%;
+    height: 94.5%;
+  }
+
+  .adultColPic {
+    width: 94.5%;
+    height: 260px;
+  }
+
+  .instructorsColPic {
+    width: 94.5%;
+  }
+
+  .kidsColHeader {
+    padding-left: 208px;
+  }
+
+  .altLinksList {
+    padding-left: 290px;
   }
 }
 

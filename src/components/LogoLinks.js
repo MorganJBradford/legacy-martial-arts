@@ -11,7 +11,7 @@ function Logo() {
     <Container>
       <Row>
         <Col md={2}>
-          <img src={LegacyLogo} id="legacyLogo" alt="Legacy Martial Arts Logo" onClick={() => setMainControl("home")}/>
+          <img src={LegacyLogo} id={mainControl === "home" ? "legacyLogo" : "altLegacyLogo"} alt="Legacy Martial Arts Logo" onClick={() => setMainControl("home")}/>
         </Col>
         <Col md={10}>
           <div className="linksDiv">
