@@ -27,7 +27,7 @@ function InstructorCol() {
         <div className="sectionWrapper d-flex justify-content-center">
           <Row className="instructorColSection">
             <Col>
-              <img src={MJ} className="colPic"/>
+              <img src={MJ} alt="Master Jane kicking towards the sky" className="colPic"/>
             </Col>
             <Col>
               <h1 className="instructorColH1">MASTER JANE</h1>
@@ -39,7 +39,7 @@ function InstructorCol() {
         <div className="sectionWrapper d-flex justify-content-center">
           <Row className="instructorColSection">
             <Col>
-              <img src={Jeremy} className="colPic"/>
+              <img src={Jeremy} alt="instructor Jeremy" className="colPic"/>
             </Col>
             <Col>
               <h1 className="instructorColH1">INSTRUCTOR JEREMY</h1>
@@ -51,10 +51,10 @@ function InstructorCol() {
         <div className="sectionWrapper d-flex justify-content-center">
           <Row className="instructorColSection">
             <Col>
-              <img src={Tati} className="colPic"/>
+              <img src={Tati} alt="junior instructor Tati" className="colPic"/>
             </Col>
             <Col>
-              <h1 className="instructorColH1">INSTRUCTOR TATI</h1>
+              <h1 className="instructorColH1">JUNIOR INSTRUCTOR TATI</h1>
               <p className="classColP">Taekwondo</p>
               <button className="moreInfoBtnRed" onClick={() => scrollToTop("tati")}>MORE INFO</button>
             </Col>

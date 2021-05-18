@@ -7,7 +7,7 @@ function InstructorJeremy() {
     <>
       <Col xs={12} md={7} lg={7} xl={7} className="kidsCol">
         <div className="kidsColSectionOne kidsColPosition">
-          <img src={colHeaderPic} className="instructorsColPic"/>
+          <img src={colHeaderPic} alt="instructor Jeremy" className="instructorsColPic"/>
           <h1 className="kidsColH1">Instructor Jeremy Newman</h1>
         </div>
         <div className="kidsColSectionTwo kidsColPosition">

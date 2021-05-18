@@ -20,7 +20,7 @@ function Footer() {
                   <h2 className="footerColH2">LEGACY MARTIAL ARTS</h2>
                   <Row className="locationSection">
                     <Col><h2 className="footerColH2">ADDRESS</h2></Col>
-                    <Col><p className="footerLocation">blah blah blah</p></Col>
+                    <Col><p className="footerLocation">21 E Third St, Sterling IL 61081</p></Col>
                   </Row>
                   <Row className="locationSectionMid">
                     <Col><h2 className="footerColH2">TELEPHONE</h2></Col>
@@ -37,7 +37,7 @@ function Footer() {
           <Col xs={12} md={4} lg={4} xl={4} className="mainCols">
               <Row>
                 <Col>
-                  <img src={Logo} id="footerLogo"/>
+                  <img src={Logo} alt="Legacy Martial Arts Logo" id="footerLogo"/>
                   <p className="footerMid">We here at Legacy Martial Arts welcome the opportunity to have you or your children study the martial arts with us. We will do our best to help you gain the most from your training!</p>
                 </Col>
               </Row>

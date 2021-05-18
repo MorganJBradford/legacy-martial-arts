@@ -7,7 +7,7 @@ function MasterJane() {
     <>
       <Col xs={12} md={7} lg={7} xl={7} className="kidsCol">
         <div className="kidsColSectionOne kidsColPosition">
-          <img src={colHeaderPic} className="instructorsColPic"/>
+          <img src={colHeaderPic} alt="Master Jane" className="instructorsColPic"/>
           <h1 className="kidsColH1">Master Jane Dillon</h1>
         </div>
         <div className="kidsColSectionTwo kidsColPosition">

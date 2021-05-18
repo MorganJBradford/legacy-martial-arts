@@ -29,7 +29,7 @@ function ClassCol() {
         <div className="sectionWrapper d-flex justify-content-center">
           <Row className="classColSection">
             <Col>
-              <img src={EmKick} className="colPic"/>
+              <img src={EmKick} alt="a student kicking toward the sky" className="colPic"/>
             </Col>
             <Col>
               <h1 className="classColH1">KIDS TAEKWONDO</h1>
@@ -41,7 +41,7 @@ function ClassCol() {
         <div className="sectionWrapper d-flex justify-content-center">
           <Row className="classColSection">
             <Col>
-              <img src={FamilyClass} className="colPic"/>
+              <img src={FamilyClass} alt="a family at a tournament" className="colPic"/>
             </Col>
             <Col>
               <h1 className="classColH1">FAMILY TAEKWONDO</h1>
@@ -53,7 +53,7 @@ function ClassCol() {
         <div className="sectionWrapper d-flex justify-content-center">
           <Row className="classColSection">
             <Col>
-              <img src={AdultTkdHkd} className="colPic"/>
+              <img src={AdultTkdHkd} alt="adult class students" className="colPic"/>
             </Col>
             <Col>
               <h1 className="classColH1">ADULT TAEKWONDO & HAPKIDO</h1>
