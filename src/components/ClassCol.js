@@ -1,7 +1,7 @@
 import React, { useContext } from "react";
 import { AppContext } from "../AppContext";
 import Col from "react-bootstrap/Col";
-import ViewClasses from "./ClassesCol/ViewAll";
+import ViewClasses from "./ClassesCol/ViewClasses";
 import KidsClass from "./ClassesCol/KidsClass";
 import FamilyClass from "./ClassesCol/FamilyClass";
 import AdultClass from "./ClassesCol/AdultClass";
