@@ -39,6 +39,25 @@ function MainContent() {
         </div>
       </>
     );
+  } else if (mainControl === "viewClasses") {
+    return (
+      <div className="mainContent">
+        <h1 className="kidsColHeader">OUR CLASSES</h1>
+        <Container>
+          <Row>
+            <Col>
+              <KidsClass/>
+            </Col>
+            <Col>
+              <FamilyClass/>
+            </Col>
+            <Col>
+              <AdultClass/>
+            </Col>
+          </Row>
+        </Container>
+      </div>
+    ); 
   } else if (mainControl === "kidsClass") {
     return (
       <div className="mainContent">
@@ -105,10 +124,29 @@ function MainContent() {
         </Container>
       </div>
     ); 
+  } else if (mainControl === "viewInstructors") {
+    return (
+      <div className="mainContent">
+        <h1 className="kidsColHeader">OUR INSTRUCTORS</h1>
+        <Container>
+          <Row>
+            <Col>
+              <MasterJane />
+            </Col>
+            <Col>
+              <InstructorJeremy />
+            </Col>
+            <Col>
+              <JrInstructorTati />
+            </Col>
+          </Row>
+        </Container>
+      </div>
+    );
   } else if (mainControl === "mj") {
     return (
       <div className="mainContent">
-        <h1 className="kidsColHeader">OUR CLASSES</h1>
+        <h1 className="kidsColHeader">OUR INSTRUCTORS</h1>
         <Container>
           <Row>
             <MasterJaneInfo/>
@@ -122,11 +160,11 @@ function MainContent() {
           </Row>
         </Container>
       </div>
-    ); 
+    );
   } else if (mainControl === "jeremy") {
     return (
       <div className="mainContent">
-        <h1 className="kidsColHeader">OUR CLASSES</h1>
+        <h1 className="kidsColHeader">OUR INSTRUCTORS</h1>
         <Container>
           <Row>
             <InstructorJeremyInfo/>
@@ -144,7 +182,7 @@ function MainContent() {
   } else if (mainControl === "tati") {
     return (
       <div className="mainContent">
-        <h1 className="kidsColHeader">OUR CLASSES</h1>
+        <h1 className="kidsColHeader">OUR INSTRUCTORS</h1>
         <Container>
           <Row>
             <JrInstructorTatiInfo/>
