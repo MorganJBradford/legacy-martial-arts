@@ -17,8 +17,8 @@ function Logo() {
           <div className="linksDiv">
             <ul className={mainControl === "home" ? "linksList" : "altLinksList"}>
               <li className={mainControl === "home" ? "linksLi bgRed" : "linksLi"} onClick={() => setMainControl("home")}>HOME</li>
-              <li className="linksLi">ABOUT</li>
-              <li className="linksLi">CLASSES</li>
+              <li className={mainControl === "viewInstructors" ? "linksLi bgRed" : "linksLi"} onClick={() => setMainControl("viewInstructors")}>ABOUT</li>
+              <li className={mainControl === "viewClasses" ? "linksLi bgRed" : "linksLi"} onClick={() => setMainControl("viewClasses")}>CLASSES</li>
               <li className="linksLi">FAQ</li>
               <li className="linksLi linksLiLast">STUDENTS</li>
             </ul>
