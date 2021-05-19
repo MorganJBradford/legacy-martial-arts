@@ -1,9 +1,17 @@
-import React from "react";
+import React, { useContext } from "react";
 import Col from "react-bootstrap/Col";
 import Row from "react-bootstrap/Row";
 import MJ from "../../img/mj1.jpg";
+import { AppContext } from "../../AppContext";
 
-function MasterJane(props) {
+function MasterJane() {
+  const { setMainControl } = useContext(AppContext);
+
+  function handleMoreInfoClick(param) {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+    setMainControl(param)
+  }
   return (
     <div className="sectionWrapper d-flex justify-content-center">
       <Row className="instructorColSection">
@@ -13,7 +21,7 @@ function MasterJane(props) {
         <Col>
           <h1 className="instructorColH1">MASTER JANE</h1>
           <p className="classColP">Taekwondo, Hapkido</p>
-          <button className="moreInfoBtnRed" onClick={() => props.onMoreInfoClick()}>MORE INFO</button>
+          <button className="moreInfoBtnRed" onClick={() => handleMoreInfoClick("mj")}>MORE INFO</button>
         </Col>
       </Row>
     </div>

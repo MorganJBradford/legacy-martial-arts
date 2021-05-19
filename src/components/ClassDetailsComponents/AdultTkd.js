@@ -1,7 +1,7 @@
 import React from "react";
 import Col from "react-bootstrap/Col";
-import colHeaderPic from "../img/adult-class.jpg";
-import AdultClass from "../img/adult-class2.jpg";
+import colHeaderPic from "../../img/adult-class.jpg";
+import AdultClass from "../../img/adult-class2.jpg";
 
 function AdultTkd() {
   return (

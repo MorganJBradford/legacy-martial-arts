@@ -6,12 +6,12 @@ import { AppContext } from "../AppContext";
 import ClassCol from "./ClassCol";
 import InstructorCol from "./InstructorCol";
 import NewsCol from "./NewsCol";
-import FamilyTkd from "./FamilyTkd";
-import KidsTkd from "./KidsTkd";
-import MasterJaneInfo from "./MasterJane";
-import InstructorJeremyInfo from "./InstructorJeremy";
-import JrInstructorTatiInfo from "./InstructorTati";
-import AdultTkd from "./AdultTkd";
+import FamilyTkd from "./ClassDetailsComponents/FamilyTkd";
+import KidsTkd from "./ClassDetailsComponents/KidsTkd";
+import MasterJaneInfo from "./InstructorDetailsComponents/MasterJane";
+import InstructorJeremyInfo from "./InstructorDetailsComponents/InstructorJeremy";
+import JrInstructorTatiInfo from "./InstructorDetailsComponents/InstructorTati";
+import AdultTkd from "./ClassDetailsComponents/AdultTkd";
 import ViewClasses from "./ClassesCol/ViewClasses";
 import AdultClass from "./ClassesCol/AdultClass";
 import FamilyClass from "./ClassesCol/FamilyClass";
@@ -19,6 +19,7 @@ import ViewInstructors from "./InstructorsCol/ViewInstructors";
 import InstructorJeremy from "./InstructorsCol/InstructorJeremy";
 import MasterJane from "./InstructorsCol/MasterJane";
 import JrInstructorTati from "./InstructorsCol/JrInstructorTati";
+import KidsClass from './ClassesCol/KidsClass';
 
 function MainContent() {
   const { mainControl } = useContext(AppContext);
@@ -49,12 +50,12 @@ function MainContent() {
             </Col>
             <Col xs={10} sm={10} md={5} lg={4} xl={4} className="mainCols">
               <ViewClasses/>
-              <FamilyClass />
-              <AdultClass />
-              <ViewInstructors />
-              <MasterJane />
-              <InstructorJeremy />
-              <JrInstructorTati />
+              <FamilyClass/>
+              <AdultClass/>
+              <ViewInstructors/>
+              <MasterJane/>
+              <InstructorJeremy/>
+              <JrInstructorTati/>
             </Col>
           </Row>
         </Container>
@@ -71,7 +72,7 @@ function MainContent() {
             </Col>
             <Col xs={10} sm={10} md={5} lg={4} xl={4} className="mainCols">
               <ViewClasses/>
-              <FamilyClass />
+              <KidsClass />
               <AdultClass />
               <MasterJane />
               <ViewInstructors />
@@ -93,8 +94,8 @@ function MainContent() {
             </Col>
             <Col xs={10} sm={10} md={5} lg={4} xl={4} className="mainCols">
               <ViewClasses/>
+              <KidsClass />
               <FamilyClass />
-              <AdultClass />
               <ViewInstructors />
               <MasterJane />
               <InstructorJeremy />

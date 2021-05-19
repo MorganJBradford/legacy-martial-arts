@@ -1,6 +1,6 @@
 import React from "react";
 import Col from "react-bootstrap/Col";
-import colHeaderPic from "../img/tati.jpg";
+import colHeaderPic from "../../img/tati.jpg";
 
 function InstructorJeremy() {
   return (

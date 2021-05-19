@@ -2,8 +2,8 @@ import React, { useContext } from "react";
 import Container from "react-bootstrap/Container";
 import Col from "react-bootstrap/Col";
 import Row from "react-bootstrap/Row";
-import LegacyLogo from "../img/legacy-logo.jpg";
-import { AppContext } from "../AppContext";
+import LegacyLogo from "../../img/legacy-logo.jpg";
+import { AppContext } from "../../AppContext";
 
 function Logo() {
   const { mainControl, setMainControl } = useContext(AppContext);

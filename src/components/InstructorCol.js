@@ -11,19 +11,13 @@ import JrInstructorTati from "./InstructorsCol/JrInstructorTati";
 function InstructorCol() {
   const { setMainControl } = useContext(AppContext);
 
-  function handleMoreInfoClick(param) {
-    document.body.scrollTop = 0;
-    document.documentElement.scrollTop = 0;
-    setMainControl(param)
-  }
-
   return (
     <>
       <Col xs={10} sm={10} md={5} lg={4} xl={4} className="mainCols">
         <ViewInstructors/>
-        <MasterJane onMoreInfoClick={() => handleMoreInfoClick("mj")}/>
-        <InstructorJeremy onMoreInfoClick={() => handleMoreInfoClick("jeremy")}/>
-        <JrInstructorTati onMoreInfoClick={() => handleMoreInfoClick("tati")} />
+        <MasterJane />
+        <InstructorJeremy />
+        <JrInstructorTati />
       </Col>
     </>
   );

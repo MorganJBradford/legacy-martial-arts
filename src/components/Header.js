@@ -1,7 +1,7 @@
 import React, { useContext } from "react";
-import HomeCarousel from "./HomeCarousel";
-import LogoLinks from "./LogoLinks";
-import TopBar from "./TopBar";
+import HomeCarousel from "./HeaderComponents/HomeCarousel";
+import LogoLinks from "./HeaderComponents/LogoLinks";
+import TopBar from "./HeaderComponents/TopBar";
 import { AppContext } from "../AppContext";
 
 

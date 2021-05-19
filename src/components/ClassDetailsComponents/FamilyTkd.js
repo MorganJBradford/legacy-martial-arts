@@ -1,6 +1,6 @@
 import React from "react";
 import Col from "react-bootstrap/Col";
-import colHeaderPic from "../img/kidsColPicTwo.jpg";
+import colHeaderPic from "../../img/kidsColPicTwo.jpg";
 
 function FamilyTkd() {
   return (

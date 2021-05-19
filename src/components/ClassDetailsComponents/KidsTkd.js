@@ -1,9 +1,9 @@
 import React from "react";
 import Col from "react-bootstrap/Col";
-import EmKick from "../img/em-rhkick.jpg";
-import colPicOne from "../img/kidsColPicOne.png";
-import colPicTwo from "../img/kidsColPicTwo.jpg";
-import colPicThree from "../img/kidsColPicThree.jpg";
+import EmKick from "../../img/em-rhkick.jpg";
+import colPicOne from "../../img/kidsColPicOne.png";
+import colPicTwo from "../../img/kidsColPicTwo.jpg";
+import colPicThree from "../../img/kidsColPicThree.jpg";
 
 function KidsTkd() {
   return (
