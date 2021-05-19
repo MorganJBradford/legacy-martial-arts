@@ -19,18 +19,18 @@ function Logo() {
         <Col md={10}>
           <div className="linksDiv">
             <ul className={mainControl === "home" ? "linksList" : "altLinksList"}>
-              <Link to="/" style={{textDecoration: "none"}} onClick={() => setMainControl("home")}>
-                <li className={mainControl === "home" ? "linksLi bgRed" : "linksLi"}>
+              <Link to="/" className={mainControl === "home" ? "linksLi bgRed" : "linksLi"} style={{textDecoration: "none"}} onClick={() => setMainControl("home")}>
+                <li style={{listStyleType: "none"}}>
                   HOME
                 </li>
               </Link>
-              <Link to="/AllInstructors" style={{textDecoration: "none"}} onClick={() => setMainControl("viewInstructors")}>
-                <li className={mainControl === "viewInstructors" ? "linksLi bgRed" : "linksLi"}>
+              <Link to="/AllInstructors" className={mainControl === "viewInstructors" ? "linksLi bgRed" : "linksLi"} style={{textDecoration: "none"}} onClick={() => setMainControl("viewInstructors")}>
+                <li style={{listStyleType: "none"}}>
                   ABOUT
                 </li>
               </Link>
-              <Link to="/AllClasses" style={{textDecoration: "none"}}  onClick={() => setMainControl("viewClasses")}>
-                <li className={mainControl === "viewClasses" ? "linksLi bgRed" : "linksLi"}>
+              <Link to="/AllClasses" className={mainControl === "viewClasses" ? "linksLi bgRed" : "linksLi"} style={{textDecoration: "none"}}  onClick={() => setMainControl("viewClasses")}>
+                <li style={{listStyleType: "none"}}>
                   CLASSES
                 </li>
               </Link>
