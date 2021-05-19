@@ -17,7 +17,13 @@ function ViewClasses() {
     <div className="headerWrapper d-flex justify-content-center">
       <Row className="colHeader">
         <Col><h1 className="colH1">OUR CLASSES</h1></Col>
-        <Col><button className="colBtns"><Link to="/AllClasses">View All</Link></button></Col>
+        <Col>
+          <Link to="/AllClasses" onClick={() => handleMoreInfoClick("viewClasses")}>
+            <button className="colBtns">
+              View All
+            </button>
+          </Link>
+        </Col>
       </Row>
     </div>
   );

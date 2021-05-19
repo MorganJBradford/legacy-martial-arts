@@ -9,19 +9,24 @@ import KidsClassPath from "./MainContentComponents/KidsClassPath";
 import MasterJanePath from "./MainContentComponents/MasterJanePath";
 import ViewClassesPath from "./MainContentComponents/ViewClassesPath";
 import ViewInstructorsPath from "./MainContentComponents/ViewInstructorsPath";
+import Header from "./Header";
 
 function MainContent() {
   return (
     <Router>
+      <Header/>
       <Switch>
         <Route path="/AdultClass">
           <AdultClassPath/>
         </Route>
+        <Route path="/AllClasses">
+          <ViewClassesPath/>
+        </Route>
+        <Route path="/AllInstructors">
+          <ViewInstructorsPath/>
+        </Route>
         <Route path="/FamilyClass">
           <FamilyClassPath/>
-        </Route>
-        <Route path="/">
-          <HomePath/>
         </Route>
         <Route path="/InstructorJeremy">
           <InstructorJeremyPath/>
@@ -35,11 +40,8 @@ function MainContent() {
         <Route path="/MasterJane">
           <MasterJanePath/>
         </Route>
-        <Route path="/AllClasses">
-          <ViewClassesPath/>
-        </Route>
-        <Route path="/AllInstructors">
-          <ViewInstructorsPath/>
+        <Route path="/">
+          <HomePath/>
         </Route>
       </Switch>
     </Router>

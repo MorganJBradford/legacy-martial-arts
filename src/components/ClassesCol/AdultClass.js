@@ -1,4 +1,5 @@
 import React, { useContext } from "react";
+import { Link } from "react-router-dom";
 import { AppContext } from "../../AppContext";
 import Col from "react-bootstrap/Col";
 import Row from "react-bootstrap/Row";
@@ -22,7 +23,11 @@ function AdultClass() {
         <Col>
           <h1 className="classColH1">ADULT TAEKWONDO & HAPKIDO</h1>
           <p className="classColP">Our Hapkido and Taekwondo program for adults is designed to help you to achieve your fitness and self defense goals.</p>
-          <button className="moreInfoBtnRed" onClick={() => handleMoreInfoClick("adultClass")}>MORE INFO</button>
+          <Link to="/AdultClass"  onClick={() => handleMoreInfoClick("adultClass")}>
+            <button className="moreInfoBtnRed">
+              MORE INFO
+            </button>
+          </Link>
         </Col>
       </Row>
     </div>

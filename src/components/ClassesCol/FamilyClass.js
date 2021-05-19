@@ -1,4 +1,5 @@
 import React, { useContext } from "react";
+import { Link } from "react-router-dom";
 import { AppContext } from "../../AppContext";
 import Col from "react-bootstrap/Col";
 import Row from "react-bootstrap/Row";
@@ -22,7 +23,11 @@ function FamilyClass() {
       <Col>
         <h1 className="classColH1">FAMILY TAEKWONDO</h1>
         <p className="classColP">Keep your family strong while having a great time together.</p>
-        <button className="moreInfoBtnRed" onClick={() => handleMoreInfoClick("familyClass")}>MORE INFO</button>
+        <Link to="/FamilyClass" onClick={() => handleMoreInfoClick("familyClass")}>
+          <button className="moreInfoBtnRed">
+            MORE INFO
+          </button>
+        </Link>
       </Col>
     </Row>
   </div>

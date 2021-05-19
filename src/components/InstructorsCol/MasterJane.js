@@ -1,4 +1,5 @@
 import React, { useContext } from "react";
+import { Link } from "react-router-dom";
 import Col from "react-bootstrap/Col";
 import Row from "react-bootstrap/Row";
 import MJ from "../../img/mj1.jpg";
@@ -21,7 +22,11 @@ function MasterJane() {
         <Col>
           <h1 className="instructorColH1">MASTER JANE</h1>
           <p className="classColP">Taekwondo, Hapkido</p>
-          <button className="moreInfoBtnRed" onClick={() => handleMoreInfoClick("mj")}>MORE INFO</button>
+          <Link to="/MasterJane" onClick={() => handleMoreInfoClick("mj")}>
+            <button className="moreInfoBtnRed">
+              MORE INFO
+            </button>
+          </Link>
         </Col>
       </Row>
     </div>

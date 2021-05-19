@@ -7,7 +7,6 @@ import { AppProvider } from "../AppContext";
 function App() {
   return (
     <AppProvider>
-      <Header />
       <MainContent />
       <Footer />
     </AppProvider>
