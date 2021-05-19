@@ -5,7 +5,7 @@ import Row from "react-bootstrap/Row";
 import AdultTkdHkd from "../../img/adultTkdHkd.jpg";
 
 
-function AdultClass(props) {
+function AdultClass() {
   const { setMainControl } = useContext(AppContext);
 
   function handleMoreInfoClick(param) {

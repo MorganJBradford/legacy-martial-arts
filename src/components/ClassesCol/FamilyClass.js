@@ -5,7 +5,7 @@ import Row from "react-bootstrap/Row";
 import FamilyClassImg from "../../img/family-class.jpg";
 
 
-function FamilyClass(props) {
+function FamilyClass() {
   const { setMainControl } = useContext(AppContext);
 
   function handleMoreInfoClick(param) {

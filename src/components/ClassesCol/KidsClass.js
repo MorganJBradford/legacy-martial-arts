@@ -3,6 +3,7 @@ import { AppContext } from "../../AppContext";
 import Col from "react-bootstrap/Col";
 import Row from "react-bootstrap/Row";
 import EmKick from "../../img/em-rhkick.jpg";
+import { Link } from "react-router-dom"
 
 
 function KidsClass() {
@@ -22,7 +23,7 @@ function KidsClass() {
         <Col>
           <h1 className="classColH1">KIDS TAEKWONDO</h1>
           <p className="classColP">Taekwondo builds healthy kids, improving their physical coordination and self confidence in a positive atmosphere.</p>
-          <button className="moreInfoBtnRed" onClick={() => handleMoreInfoClick("kidsClass")}>MORE INFO</button>
+          <button className="moreInfoBtnRed"><Link to="/KidsClass">MORE INFO</Link></button>
         </Col>
       </Row>
     </div>
